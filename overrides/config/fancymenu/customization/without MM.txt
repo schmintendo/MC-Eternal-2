@@ -374,8 +374,8 @@ element {
   audio_instance_0 = [source:local]/config/fancymenu/assets/main_theme_loop.ogg
   play_mode = normal
   looping = true
-  volume = 0.33
-  sound_source = master
+  volume = 0.20
+  sound_source = music
   element_type = audio_v2
   instance_identifier = 57b33015-ed1d-4980-b165-7a7a198b131c-1738461954314
   appearance_delay = no_delay
