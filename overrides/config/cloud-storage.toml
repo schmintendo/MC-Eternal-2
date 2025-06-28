@@ -10,7 +10,7 @@
 	#Range: 1.5 ~ 16.0
 	cloud_chest_open_distance = 6.0
 	# whether the cloud chest needs sky access to function
-	cloud_chest_needs_sky_access = true
+	cloud_chest_needs_sky_access = false
 
 [village]
 	# whether the balloon salesman villager is enabled or not
