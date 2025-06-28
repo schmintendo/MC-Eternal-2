@@ -104,7 +104,7 @@
 	allow_shadow_walker = true
 	#Defines the level max of the perk ShadowWalker [1..5|default:5]
 	#Range: 1 ~ 5
-	level_max_shadow_walker = 5
+	level_max_shadow_walker = 3
 	#Allows the perk Treasure Seeker [false/true|default:true]
 	allow_treasure_seeker = true
 	#Defines the level max of the perk Treasure Seeker [1..5|default:5]
@@ -114,12 +114,12 @@
 	allow_witch_doctor = true
 	#Defines the level max of the perk Witch Doctor [1..5|default:5]
 	#Range: 1 ~ 5
-	level_max_witch_doctor = 5
+	level_max_witch_doctor = 3
 	#Allows the perk Gladiator [false/true|default:true]
 	allow_gladiator = true
 	#Defines the level max of the perk Gladiator [1..5|default:5]
 	#Range: 1 ~ 5
-	level_max_gladiator = 2
+	level_max_gladiator = 1
 	#The cooldown in minutes to reset the perks with the ankh of Prayer [20..1440|default:120]
 	#Range: 20 ~ 1440
 	cooldown_reset_perk = 120
