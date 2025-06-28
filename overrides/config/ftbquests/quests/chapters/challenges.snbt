@@ -1212,19 +1212,6 @@
 					type: "item"
 				}
 				{
-					id: "030D57BC33E5308A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "quark:music_disc_endermosh"
-					}
-					type: "item"
-				}
-				{
 					id: "635F988EB455FE43"
 					item: {
 						Count: 1
@@ -1360,6 +1347,41 @@
 						id: "thegreatbelow:gone_music_disc"
 						tag: { }
 					}
+					type: "item"
+				}
+				{
+					id: "6945EB2F28C161D2"
+					item: "lavachickenmusicdisc:music_disc_lava_chicken"
+					type: "item"
+				}
+				{
+					id: "5AD85D3C30670D29"
+					item: "mce2lib:main_theme_music_disc"
+					type: "item"
+				}
+				{
+					id: "4EA9F27202930825"
+					item: "thegreatbelow:ghosts_music_disc"
+					type: "item"
+				}
+				{
+					id: "1DF517A46531C602"
+					item: "botania:record_gaia_2"
+					type: "item"
+				}
+				{
+					id: "47CEA0395A39FF81"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					id: "39A782935D820A34"
+					item: "ars_nouveau:music_disc_aria_biblio"
+					type: "item"
+				}
+				{
+					id: "2078A6716CC2B4FB"
+					item: "warwither:music_disc_war_wither"
 					type: "item"
 				}
 			]
