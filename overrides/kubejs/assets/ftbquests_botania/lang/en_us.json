@@ -63,7 +63,7 @@
     "mce.questing.botania.hydroangeas.sub": "Don't forget to &bstay Hydrated&7!",
     "mce.questing.botania.hydroangeas.desc": "&6Hydroangeas&r produce Mana by sapping &1Water&r from nearby source blocks, consuming them if they are not in a postion where they would be an infinite source.\n\nUnlike other &bGenerating Flora&r, they will &cDecay&r and vanish after a time.\nWhen it comes to automating them, the intent is that the flower itself is automated.",
 
-    "mce.questing.botania.endoflame.name": "Hydroangeas",
+    "mce.questing.botania.endoflame.name": "Endoflame",
     "mce.questing.botania.endoflame.sub": "Don't get burnt out!",
     "mce.questing.botania.endoflame.desc": "&6Endoflames&r generates &bMana&r using &6Burnable Items&r dropped nearby, though &ditems that leave behind something else&r (such as Lava Buckets) &ccannot be used by it&r.\n\nEndoflames are quite slow at generating Mana, so when you use them, you either want a lot of them, or you want to use them as a stepping stone to something else.",
 
