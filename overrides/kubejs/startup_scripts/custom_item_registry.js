@@ -53,7 +53,7 @@ StartupEvents.registry("item", event => {
   event.create('magic_map').displayName('§eExplorers Map').glow(true);
 
   event.create("corporea_crystal")
-    .tooltip(Text.translate("item.kubejs.corporea_crystal.desc").color("purple"))
+    .tooltip(Text.translate("item.kubejs.corporea_crystal.desc").color("light_purple"))
   
 })
 
