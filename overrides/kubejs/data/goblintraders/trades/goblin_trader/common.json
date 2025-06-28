@@ -1,0 +1,84 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ftbquests:lootcrate",
+	"nbt": "{type:\"quest_loot\"}",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "kubejs:loyalty_card_generic",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 5,
+      "experience": 4
+    },
+     {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "ftbquests:lootcrate",
+	"nbt": "{type:\"curious_box\"}",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "kubejs:loyalty_card_curio",
+	      
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 2,
+      "experience": 4
+    },
+    {
+  "type": "goblintraders:basic",
+  "offer_item": {
+    "item": "eccentrictome:tome",
+    "nbt": "{\"eccentrictome:mods\":{\"ae2\":{\"0\":{\"Count\":1b,\"id\":\"ae2:guide\"}},\"alexscaves\":{\"0\":{\"Count\":1b,\"id\":\"alexscaves:cave_book\"}},\"alexsmobs\":{\"0\":{\"Count\":1b,\"id\":\"alexsmobs:animal_dictionary\"}},\"ars_nouveau\":{\"0\":{\"Count\":1b,\"id\":\"ars_nouveau:worn_notebook\"}},\"cloudstorage\":{\"0\":{\"Count\":1b,\"id\":\"cloudstorage:guide_book\"}},\"complicated_bees\":{\"0\":{\"Count\":1b,\"id\":\"patchouli:guide_book\",\"tag\":{\"patchouli:book\":\"complicated_bees:field_guide\"}}},\"ftbquests\":{\"0\":{\"Count\":1b,\"id\":\"ftbquests:book\"}},\"goety\":{\"0\":{\"Count\":1b,\"id\":\"patchouli:guide_book\",\"tag\":{\"patchouli:book\":\"goety:black_book\"}}},\"hexcasting\":{\"0\":{\"Count\":1b,\"id\":\"patchouli:guide_book\",\"tag\":{\"patchouli:book\":\"hexcasting:thehexbook\"}}},\"iceandfire\":{\"0\":{\"Count\":1b,\"id\":\"iceandfire:bestiary\"}},\"tconstruct\":{\"0\":{\"Count\":1b,\"id\":\"tconstruct:encyclopedia\"},\"1\":{\"Count\":1b,\"id\":\"tconstruct:materials_and_you\"},\"2\":{\"Count\":1b,\"id\":\"tconstruct:mighty_smelting\"},\"3\":{\"Count\":1b,\"id\":\"tconstruct:tinkers_gadgetry\"},\"4\":{\"Count\":1b,\"id\":\"tconstruct:fantastic_foundry\"},\"5\":{\"Count\":1b,\"id\":\"tconstruct:puny_smelting\"}},\"tinkersjewelry\":{\"0\":{\"Count\":1b,\"id\":\"tinkersjewelry:book\"}}}}",
+    "count": 1
+  },
+  "payment_item": {
+    "item": "minecraft:emerald",
+    "count": 1
+  },
+  "price_multiplier": 0.0,
+  "max_trades": 1,
+  "experience": 10
+},
+
+
+     {
+  "type": "goblintraders:basic",
+  "experience": 6,
+  "max_trades": 3,
+  "offer_item": {
+    "count": 1,
+    "item": "minecraft:potion",
+    "nbt": "{CustomPotionColor:16701501,CustomPotionEffects:[{Duration:100,Id:15},{Amplifier:2,Duration:2000,Id:3},{Amplifier:2,Duration:2000,Id:1},{Amplifier:0,Duration:8500,Id:24},{Amplifier:1,Duration:2000,Id:5},{Amplifier:0,Duration:100,Id:20}],display:{Name:'{\"text\":\"Bottle of \\\\\"Skooma\\\\\"\"}'}}"
+  },
+  "payment_item": {
+    "count": 13,
+    "item": "minecraft:emerald"
+  },
+  "price_multiplier": 0.5
+},
+{
+  "type": "goblintraders:basic",
+  "experience": 6,
+  "max_trades": 3,
+  "offer_item": {
+    "count": 1,
+    "item": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments:[{id:\"veinmining:vein_mining\",lvl:1s}]}"
+  },
+  "payment_item": {
+    "count": 13,
+    "item": "minecraft:emerald"
+  },
+  "price_multiplier": 0.5
+}
+     
+  ]
+}

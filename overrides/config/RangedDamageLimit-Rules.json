@@ -1,0 +1,66 @@
+[
+  {
+    "mobId": "mowziesmobs:umvuthi",
+    "protectionDistance": 10.0,
+    "damageCap": 1.0,
+    "noAggroBeyondCertainDistance": false,
+    "noAggroDistance": 15.0
+  },
+  {
+    "mobId": "minecraft:warden",
+    "protectionDistance": 10.0,
+    "damageCap": 1.0,
+    "noAggroBeyondCertainDistance": false,
+    "noAggroDistance": 15.0
+  },
+  {
+    "mobId": "aquamirae:captain_cornelia",
+    "protectionDistance": 10.0,
+    "damageCap": 1.0,
+    "noAggroBeyondCertainDistance": false,
+    "noAggroDistance": 15.0
+  },
+  {
+    "mobId": "bosses_of_mass_destruction:gauntlet",
+    "protectionDistance": 10.0,
+    "damageCap": 1.0,
+    "noAggroBeyondCertainDistance": false,
+    "noAggroDistance": 15.0
+  },
+  {
+    "mobId": "bosses_of_mass_destruction:void_blossom",
+    "protectionDistance": 10.0,
+    "damageCap": 1.0,
+    "noAggroBeyondCertainDistance": false,
+    "noAggroDistance": 15.0
+  },
+  {
+    "mobId": "irons_spellbooks:dead_king",
+    "protectionDistance": 10.0,
+    "damageCap": 1.0,
+    "noAggroBeyondCertainDistance": false,
+    "noAggroDistance": 15.0
+  },
+  {
+    "mobId": "iceandfire:lightning_dragon",
+    "protectionDistance": 15.0,
+    "damageCap": 1.0,
+    "noAggroBeyondCertainDistance": false,
+    "noAggroDistance": 15.0
+  },
+  {
+    "mobId": "iceandfire:fire_dragon",
+    "protectionDistance": 15.0,
+    "damageCap": 1.0,
+    "noAggroBeyondCertainDistance": false,
+    "noAggroDistance": 15.0
+  },
+  {
+    "mobId": "iceandfire:ice_dragon",
+    "protectionDistance": 15.0,
+    "damageCap": 1.0,
+    "noAggroBeyondCertainDistance": false,
+    "noAggroDistance": 15.0
+  }
+  
+]

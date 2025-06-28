@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#forge:bosses",
+    "minecraft:warden",
+    "irons_spellbooks:citadel_keeper",
+    "irons_spellbooks:pyromancer",
+    "irons_spellbooks:archevoker",
+    "irons_spellbooks:apothecarist",
+    "irons_spellbooks:cryomancer",
+    "irons_spellbooks:priest",
+    "irons_spellbooks:cultist",
+    "goblintraders:goblin_trader"]
+}

@@ -1,0 +1,24 @@
+{
+  "values": [
+    "minecraft:warden",
+    "goblintraders:goblin_trader",
+    "minecraft:wither",
+    "#forge:bosses",
+    "cataclysm:ignis",
+    "cataclysm:the_harbinger",
+    "cataclysm:the_leviathan",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:ancient_remnant",
+    "cataclysm:maledictus",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:void_blossom",
+    "mowziesmobs:ferrous_wroughtnaut",
+    "mowziesmobs:frostmaw",
+    "mowziesmobs:umvuthi",
+    "mowziesmobs:sculptor",
+    "iceandfire:fire_dragon",
+    "iceandfire:ice_dragon",
+    "masquerader_mod:masquerader"
+  ]
+}
