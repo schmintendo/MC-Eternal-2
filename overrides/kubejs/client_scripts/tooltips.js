@@ -91,8 +91,8 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:artifact_beating_heart', Text.of('§8A faint heartbeat can be heard inside the darkest crevices of your mind, a terrible voice whispers to you in a language you cannot comprehend...').color('#FFFFFF'));
 	event.add('kubejs:artifact_beating_heart', Text.of('§7§o"Seek out the incomplete portal.. Let me lead you..."').color('#FFFFFF'));
 	event.add('kubejs:artifact_beating_heart', Text.of('§b<shake>ℸ ̣⍑ᒷ.⊣∷ᒷᔑℸ ̣.ʖᒷꖎ𝙹∴ ||𝙹⚍.ᒲ⚍ᓭℸ ̣.⊣𝙹.ᑑ⚍╎ᓵꖌꖎ||.リ𝙹∴.𝙹∷.||𝙹⚍.∴╎ꖎl.↸∷𝙹∴リ.').color('#FFFFFF'));
-	event.add('kubejs:nether_item', Text.of('§6Allows passage into The Nether').color('#FFFFFF'));
-	event.add('kubejs:nether_item', Text.of('§dRight-Click to Ponder The Orb').color('#FFFFFF'));
+	event.add('kubejs:nether_item', Text.of('§6Grants knowledge about Nether Portals.').color('#FFFFFF'));
+	event.add('kubejs:nether_item', Text.of('§dRight-Click to Ponder The Orb and summon a temporary minion!').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§eDrops from The Eternal Invasion Gateway').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§5§6✎ §nLore Text').color('#FFFFFF'));
 	event.add('kubejs:nether_item', Text.of('§7§oVibrates at ever-changing frequencies').color('#FFFFFF'));
