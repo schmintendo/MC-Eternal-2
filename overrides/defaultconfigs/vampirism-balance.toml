@@ -380,11 +380,11 @@
 		sunscreenDuration = 40
 		#In seconds
 		#Range: > 10
-		batDuration = 15
+		batDuration = 30
 		regenerationEnabled = true
 		#In seconds
 		#Range: 0 ~ 10000
-		batCooldown = 60
+		batCooldown = 120
 		#In seconds
 		#Range: 0 ~ 1000
 		sunscreenCooldown = 500
