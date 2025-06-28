@@ -6742,6 +6742,7 @@
 				}
 				type: "item"
 			}]
+			title: "Soar The Skies!"
 			x: 6.093537414965986d
 			y: -1.2226190476190482d
 		}
@@ -6752,10 +6753,6 @@
 				"Allowing for longer travel! "
 				""
 				"&eTip:&r Paragliders can also be enchanted with &dUnbreaking&r or &dMending!"
-				""
-				"&6Hint:&r Be careful gliding during bad weather, lightning tends to like to strike objects flying in the sky! "
-				"However, you can craft a &dCopper Upgrade&r. "
-				"Which when combined with a Paraglider in an Anvil will make it more resilient!"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -7790,6 +7787,71 @@
 			}]
 			x: 0.26819727891157186d
 			y: 1.4785714285714349d
+		}
+		{
+			dependencies: ["2996914FD7293363"]
+			description: [
+				"If you want to ensure you arrive on time, you'll likely want to invest in a &eCopper Upgrade&r"
+				"This item can be combined with your glider of choice in an anvil to protect it during bad weather!"
+				""
+				"Attempting to glide during thunder will result in your glider being set on fire!"
+				""
+				"So if you want to protect yourself from Zeus himself, craft in a Copper Upgrade!"
+			]
+			hide_until_deps_complete: true
+			id: "2E944255BFF13585"
+			optional: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5D956AF7A0D59105"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "658C132E6B2EBDE7"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 0.6d
+			subtitle: "Craft a &eCopper Upgrade"
+			tasks: [{
+				id: "2C36D9758AD14A89"
+				item: "vc_gliders:copper_upgrade"
+				type: "item"
+			}]
+			title: "&6Delayed by a Lightning Strike!"
+			x: 4.484013605442186d
+			y: -1.2178571428571416d
 		}
 	]
 	title: "&6A New Start! &a(Recommended!)"
