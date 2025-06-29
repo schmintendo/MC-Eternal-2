@@ -233,10 +233,10 @@
     },
     "lucky_rock": {
       "extra_mining_item": {
-        "chance": 0.01,
+        "chance": 0.001,
         "chance_range": {
           "min": 0.0,
-          "max": 1.0
+          "max": 0.4
         },
         "loot_ids": {
           "__default": "majruszsaccessories:gameplay/lucky_rock_default",
