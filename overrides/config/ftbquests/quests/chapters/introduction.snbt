@@ -7833,6 +7833,29 @@
 			x: 4.484013605442186d
 			y: -1.2178571428571416d
 		}
+		{
+			id: "4F97C93EFE14F746"
+			invisible: true
+			optional: true
+			rewards: [{
+				command: "/titles add {p} titles:pride"
+				console: true
+				icon: "titles:title_scroll_uncommon"
+				id: "24FA41A324EB3AA1"
+				title: "&eUnlock Title:&r the &cP&6r&eo&au&bd"
+				type: "command"
+			}]
+			size: 0.7d
+			subtitle: "<rainb>Every day is Pride! <3"
+			tasks: [{
+				id: "4A79FEC262C8D1C5"
+				item: "alexsmobs:rainbow_jelly"
+				type: "item"
+			}]
+			title: "&dHappy Pride!"
+			x: -0.5032312925169933d
+			y: 1.4768707482993122d
+		}
 	]
 	title: "&6A New Start! &a(Recommended!)"
 }
