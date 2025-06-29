@@ -69,7 +69,9 @@ ServerEvents.recipes(event => {
     ]
 
     corpDevice.forEach((device) => {
-        addTerraPlate(event, Item.of(`botania:corporea_${device.result}`), [
+        let resultID = `botania:corporea_${device.result}`
+        event.remove({id: resultID})
+        addTerraPlate(event, Item.of(resultID), [
             Item.of('botania:corporea_block'),
             Item.of('botania:red_string')
         ].concat(device.items), 
