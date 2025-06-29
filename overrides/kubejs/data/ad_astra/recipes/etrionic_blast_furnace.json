@@ -6,7 +6,7 @@
       "tag": "ad_astra:iron_plates"
     },
     "Z": {
-      "tag": "ad_astra:etrionic_capacitor"
+      "item": "ad_astra:etrionic_capacitor"
     },
     "B": {
       "item": "minecraft:blast_furnace"
