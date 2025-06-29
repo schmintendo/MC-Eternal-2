@@ -7838,7 +7838,7 @@
 			invisible: true
 			optional: true
 			rewards: [{
-				command: "/titles add {p} titles:pride"
+				command: "/titles add {p} titles:proud"
 				console: true
 				icon: "titles:title_scroll_uncommon"
 				id: "24FA41A324EB3AA1"
