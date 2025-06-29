@@ -15,6 +15,8 @@
 				"There are three different Spell Book Tiers, along with three different Tiers of &eGlyphs&r that allow many things with just a Spell Book in hand."
 				""
 				"&5Ars Nouveau&r has many features other than just spell casting!"
+				""
+				"&7Chapter Credit: Traylon "
 			]
 			id: "16A7C49E6CDC24DD"
 			rewards: [
@@ -56,6 +58,14 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:novice"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "47DEE3AFD85ACFD7"
+					title: "&eUnlock Title:&r the Novice"
+					type: "command"
 				}
 			]
 			shape: "embellish"
@@ -378,6 +388,14 @@
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
 				}
+				{
+					command: "/titles add {p} titles:mage"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "6DD9F788CCAE3340"
+					title: "&eUnlock Title:&r the Mage"
+					type: "command"
+				}
 			]
 			subtitle: "Was I not a Mage before?"
 			tasks: [{
@@ -620,6 +638,14 @@
 					id: "6C76B77E64F2C04C"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:archmage"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "521EE2791A5EB03B"
+					title: "&eUnlock Title:&r the Archmage"
+					type: "command"
 				}
 			]
 			subtitle: "I'm a what?"
