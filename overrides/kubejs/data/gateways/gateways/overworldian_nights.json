@@ -26,12 +26,12 @@
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:zombie",
-                    "rolls": 10
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:skeleton",
-                    "rolls": 10
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
@@ -52,6 +52,10 @@
                 {
                     "entity": "minecraft:zombie",
                     "count": 8
+                },
+				{
+                    "entity": "irons_spellbooks:necromancer",
+                    "count": 1
                 },
                 {
                     "entity": "minecraft:skeleton",
@@ -86,27 +90,27 @@
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:zombie",
-                    "rolls": 15
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:skeleton",
-                    "rolls": 15
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:spider",
-                    "rolls": 10
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:creeper",
-                    "rolls": 10
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:witch",
-                    "rolls": 10
+                    "rolls": 1
                 }
 			],
 			"max_wave_time": 1000,
@@ -125,6 +129,10 @@
                 {
                     "entity": "minecraft:spider",
                     "count": 3
+                },
+				{
+                    "entity": "irons_spellbooks:necromancer",
+                    "count": 1
                 },
                 {
                     "entity": "minecraft:creeper",
@@ -170,27 +178,27 @@
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:zombie",
-                    "rolls": 15
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:skeleton",
-                    "rolls": 15
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:spider",
-                    "rolls": 15
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:creeper",
-                    "rolls": 15
+                    "rolls": 1
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:witch",
-                    "rolls": 25
+                    "rolls": 2
                 }
 			],
 			"max_wave_time": 1600,
@@ -267,27 +275,27 @@
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:zombie",
-                    "rolls": 20
+                    "rolls": 2
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:skeleton",
-                    "rolls": 20
+                    "rolls": 2
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:spider",
-                    "rolls": 20
+                    "rolls": 2
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:creeper",
-                    "rolls": 20
+                    "rolls": 2
                 },
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:witch",
-                    "rolls": 30
+                    "rolls": 3
                 }
             ],
 			"max_wave_time": 2000,
