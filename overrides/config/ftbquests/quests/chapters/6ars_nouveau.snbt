@@ -1715,6 +1715,7 @@
 			]
 			icon: "ars_nouveau:ritual_binding"
 			id: "6246436589B4A371"
+			optional: true
 			rewards: [
 				{
 					id: "48DB36C209F11C8E"
@@ -2521,6 +2522,7 @@
 				"The most common method to linking is a simple Right click but you may have to Shift + Right Click when dealing with &eChests&r or other storage. Another Shift + Right click clears the links from the targeted block."
 			]
 			id: "61E3C158682EB634"
+			optional: true
 			subtitle: "Dominion Wand 101"
 			tasks: [{
 				id: "30B12A62366FBD5A"
