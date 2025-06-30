@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "complicated_bees"
-	group: ""
+	group: "6ACD28698B988220"
 	icon: "complicated_bees:apiary"
 	id: "4EA60691B164380B"
 	images: [
 		{
 			height: 4.0d
-			image: "complicated_bees_quest:textures/quests/beefficiency.png"
+			image: "modpack:textures/beefficiency.png"
 			rotation: 0.0d
 			width: 4.0d
 			x: 8.321428571428626d
@@ -31,12 +31,23 @@
 			y: -2.5d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Breaking a &6bees nest&r without a scoop will result in you getting &4stung&r in retaliation for destroying their homes."]
+			description: [
+				"Breaking a &6bees nest&r without a scoop will result in you getting &4stung&r in retaliation for destroying their homes."
+				""
+				"&8Chapter credit: Pixiefer"
+			]
 			id: "7AAC3B991C1C9BD2"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "702FCAF338EEAC29"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Scoop"
 			tasks: [{
 				id: "51BD95CE29BD2FCB"
@@ -60,9 +71,50 @@
 				""
 				"Once you find one just use the scoop to break a &6bee nest&r, and you'll get a princess, a couple drones, and maybe even a comb or two!"
 				""
-				"{image:complicated_bees_quest:textures/quests/foresthive.png width:192 height:117 align:center}"
+				"{image:modpack:textures/foresthive.png width:192 height:117 align:center}"
 			]
 			id: "05E2AC3A1DB6F4EE"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "652C76EB45841D6B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2A235219C54A0430"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Find a Bee Nest And Break It With a Scoop"
 			tasks: [{
 				advancement: "complicated_bees:first_bee"
@@ -85,6 +137,13 @@
 				"Now that you have a queen content with her surroundings, she'll slowly produce combs and (eventually) die, leaving behind a princess and some drones. Start the cycle all over again, and you have (theoretically) infinite&e honey&r!"
 			]
 			id: "3C52612D83B05832"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7840BFD7DE019B69"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft An Apiary"
 			tasks: [{
 				id: "6A240DAD27473ACC"
@@ -107,6 +166,13 @@
 				"Most combs produce &e honey&r and wax, which have their uses - some combs, though, will produce special resources in addition to those."
 			]
 			id: "3B5EE2D9E417B944"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "53EB603468558E9F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Centrifuge and a Furnace Generator"
 			tasks: [
 				{
@@ -128,6 +194,13 @@
 			dependencies: ["54F0CED284CED909"]
 			description: ["&eThe Apiarist's Clothes&r can be equipped to lessen the negative effects of Bees (such as Poison from &2Tropical Bees&r). The more pieces of clothing you wear, the more often will Bees leave you alone. but they can still sometimes poison you, but that is &4very rare&r."]
 			id: "4A00A5F58268492F"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "75F2A41ED4B118BD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a full set of Apiarist's Clothes"
 			tasks: [
 				{
@@ -187,6 +260,13 @@
 				"&6Bees&r also need specific 'flowers' nearby, which tend to be plants native to whatever biomes the bees are native to. Azaleas, vines, dead shrubs, even skulls - all of these and more are potentially flowers that your species of &6bee&r might need."
 			]
 			id: "798FB4FB993AB815"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1A31C32C164B2347"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Meter"
 			tasks: [{
 				id: "3BD4B1E8D27251CA"
@@ -212,6 +292,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "6CB3B30D9EDF10A9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6565956321A82D05"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Frame"
 			tasks: [{
 				id: "6B46547EF2AEC53D"
@@ -230,6 +317,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "76BB689BD8189B4C"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "170CEC4D817767A9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Waxed Frame"
 			tasks: [{
 				id: "3C15217AF1917ABF"
@@ -248,6 +342,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "73B8CF4161779FB5"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "619A6EACBA58291E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Honeyed Frame"
 			tasks: [{
 				id: "1E438D05FBE27294"
@@ -266,6 +367,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "359A0BEF55743867"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "209214B25443056B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Wet Frame"
 			tasks: [{
 				id: "27E24DBCC8A7F512"
@@ -284,6 +392,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "0443AB8D664DB1C9"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1B01A9D997757820"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Dry Frame"
 			tasks: [{
 				id: "75D015C03739677A"
@@ -302,6 +417,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "1152343E9E5991E6"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "360D083FD6FD6D20"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Hot Frame"
 			tasks: [{
 				id: "3DF8176315204F1C"
@@ -321,6 +443,13 @@
 			dependencies: ["3B5EE2D9E417B944"]
 			description: ["You'll quickly realize you have more &ehoney&r than you know what to do with. While food is all good and well, you can also burn your excess &ehoney&r (and certain other &6bee&r products) in the &eHoney&r Generator for more RF!"]
 			id: "2EACE6C61ADE54E1"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0AEE940C9BCC0566"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Honey Generator"
 			tasks: [{
 				id: "6323EE39CCD83B69"
@@ -333,6 +462,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "73354574BC048506"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "51ECFA7EB601F626"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Deadly Frame"
 			tasks: [{
 				id: "36AC2DA70272097F"
@@ -351,6 +487,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "02070A417AC7D24C"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "1026FE69586496ED"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Restrictive Frame"
 			tasks: [{
 				id: "121E8471A826931F"
@@ -369,6 +512,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "46C008387AAC44C1"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6DA1BFF7BB7F0B2E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Twisting Frame"
 			tasks: [{
 				id: "42E6DF20FD9B5F71"
@@ -387,6 +537,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "74883BA529E1F199"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "39B62534285C49AD"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Icy Frame"
 			tasks: [{
 				id: "3F3E790250DF5705"
@@ -405,6 +562,13 @@
 		{
 			dependencies: ["36CD435056094AC4"]
 			id: "752C4D3FE16B2382"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "611F23143065B340"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Soothing Frame"
 			tasks: [{
 				id: "2858DAE980A90A8A"
@@ -429,6 +593,13 @@
 				"3 of these Silk Wisps can be used to craft a piece of string!"
 			]
 			id: "54F0CED284CED909"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0D71215C27E75A27"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Collect enough Silk Wisps to make a Woven Mesh"
 			tasks: [
 				{
@@ -455,11 +626,18 @@
 				""
 				"To build it, place down a &a3x3x3 cube of mellarium blocks&r. If you've done it right, the cube will assemble like so:"
 				""
-				"{image:complicated_bees_quest:textures/quests/mellarium.png width:100 height:100 align:center}"
+				"{image:complicated_bees:textures/gui/mellarium.png width:100 height:100 align:center}"
 				""
 				"&4Try not to build these across chunk borders or right next to each other.&r"
 			]
 			id: "0C0C54BE7EDD5E8D"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "34C70209CAA6CC99"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft Mellarium Panels and Blocks"
 			tasks: [
 				{
@@ -490,6 +668,13 @@
 				"&aPollen&r are by-products from 2 certain &6bees&r by making them work in the apiary!"
 			]
 			id: "001C50A8982EB4EB"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "10EF7BB5CBDDB674"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Collect the essentials"
 			tasks: [
 				{
@@ -531,9 +716,16 @@
 				""
 				"Use this information and Punnett squares to direct your crossbreeding efforts, and create the ultimate bee!"
 				""
-				"{image:complicated_bees_quest:textures/quests/analyzer.png width:165 height:100 align:center}"
+				"{image:modpack:textures/analyzer.png width:165 height:100 align:center}"
 			]
 			id: "1B3FFDBBBBDE0083"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "630EBACBC9D27734"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft An Analyzer"
 			tasks: [{
 				id: "4810B09CA84E1AD7"
@@ -563,6 +755,13 @@
 				"Once you complete the minigame, you'll research a random mutation involving the specimen's primary species. Researching a mutation grants apiaries placed by you a flat +20% chance for the mutation to occur within them."
 			]
 			id: "78F388A0A4C83FD6"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "50CBDB7C8E71D8AF"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Microscope"
 			tasks: [{
 				id: "0D414E16B4FDB72D"
@@ -579,9 +778,50 @@
 				"The Apid Library allows you to examine &6bees&r in your possession and determine whether they can mutate into new species. Simply place a bee in the top right slot and select a mutation on the left (if any) to see more information about it."
 				""
 				"It'll only show the icon of &6bees&r you've already collected. It'll leave hints about unknown &6bees&r by hovering over the question mark symbol!"
-				"{image:complicated_bees_quest:textures/quests/apid_library.png width:165 height:100 align:center}"
+				"{image:modpack:textures/apid_library.png width:165 height:100 align:center}"
 			]
 			id: "19EE31420AB30C2E"
+			rewards: [
+				{
+					amount: 50L
+					currency: "eternalcurrencies:coins"
+					id: "71D7A03A2DEBB0E9"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1B7104098E54C095"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Apid Library"
 			tasks: [{
 				id: "712308458D337284"
@@ -599,7 +839,7 @@
 				""
 				"Interact with the block to open the GUI. Each side of the block has a color on it, which correspond to rows in the GUI."
 				""
-				"{image:complicated_bees_quest:textures/quests/bee_sorter.png width:135 height:100 align:center}"
+				"{image:modpack:textures/bee_sorter.png width:135 height:100 align:center}"
 				""
 				"On the left, you have type filters - click these to swap between drone, princess, queen, &6any bee, non-bee&r, and no items allowed. The remaining six slots on each row are species filters, where 0 is the primary and 1 is the secondary. You can set these by left or right clicking on the slot with a &6bee&r or dragging one from a recipe browser."
 				""
@@ -608,6 +848,13 @@
 				"By default, the sorter auto-exports - &4you can disable this with redstone&r."
 			]
 			id: "2B2001174BB973FC"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "58370231DDEE0D1A"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Bee Sorter"
 			tasks: [{
 				id: "6B5C7BDBF5C6268A"
@@ -633,6 +880,13 @@
 		{
 			dependencies: ["0C9C7832C04D7797"]
 			id: "24778B64B29FC31F"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "33C3DD898CAB5C58"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Basic Upgrade"
 			tasks: [{
 				id: "45502F0F44B398BF"
@@ -645,6 +899,13 @@
 		{
 			dependencies: ["0C9C7832C04D7797"]
 			id: "0C1C07B8146DA330"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4D9FAD5B60E3025F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Waxed Upgrade"
 			tasks: [{
 				id: "525556DF4164386F"
@@ -657,6 +918,13 @@
 		{
 			dependencies: ["0C9C7832C04D7797"]
 			id: "62BED39D65E8CC15"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "58D10193DF1A96DB"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Honeyed Upgrade"
 			tasks: [{
 				id: "539BAF9BF638D516"
@@ -669,6 +937,13 @@
 		{
 			dependencies: ["0C9C7832C04D7797"]
 			id: "4F64FDFEF3EECD9C"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "3F0E7BC42F8713DC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Silky Upgrade"
 			tasks: [{
 				id: "75A94235FF70C562"
@@ -681,6 +956,47 @@
 		{
 			dependencies: ["0C9C7832C04D7797"]
 			id: "1EF5112E879AC2B0"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "639DAB1F9AB0B23E"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "5C7073DE89F7787F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Royal Upgrade"
 			tasks: [{
 				id: "3AA7ED3C5E50CFA4"
@@ -693,6 +1009,47 @@
 		{
 			dependencies: ["0C9C7832C04D7797"]
 			id: "58B7FFC2002CAFF4"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "278BCD40D26E233C"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "2BAE6DD44A6B93CD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Twisted Upgrade"
 			tasks: [{
 				id: "5124E34EFBA93B33"
@@ -705,6 +1062,47 @@
 		{
 			dependencies: ["0C9C7832C04D7797"]
 			id: "60533E7393F961D2"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "2EDC04AEAEE0F008"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6937E6168E85B268"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Withered Upgrade"
 			tasks: [{
 				id: "4AB1892133817EA3"
@@ -717,6 +1115,47 @@
 		{
 			dependencies: ["0C9C7832C04D7797"]
 			id: "763018489B3197D3"
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "3FA7CFAB8A6C3007"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "1FC51E543C50179E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Endenic Upgrade"
 			tasks: [{
 				id: "6036D09770D8C010"
@@ -730,6 +1169,13 @@
 			dependencies: ["0C0C54BE7EDD5E8D"]
 			description: ["Frame Housings can hold frames based on their tier - the basic can hold one, the regular two, and the large three. &aThese frames will stack multiplicatively!&r"]
 			id: "48C1A0F56EA01131"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6EBB5E89B85FCE6E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Mellarium Frame Housing"
 			tasks: [{
 				id: "00F8898FC4A4B77B"
@@ -744,6 +1190,13 @@
 			dependencies: ["0C0C54BE7EDD5E8D"]
 			description: ["Every &6bee&r lifecycle tick, the Temperature Unit has a chance to consume specific items to increase or decrease the temperature of the Mellarium - check your JEI for possible fuels."]
 			id: "3A36A3940680BFC5"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "7BCCF4B3ECCB2C95"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Temperature Unit"
 			tasks: [{
 				id: "4E11F9BE4A432D95"
@@ -757,6 +1210,13 @@
 			dependencies: ["0C0C54BE7EDD5E8D"]
 			description: ["Using the power of a &9heart of the sea&r, the Rain Shield protects &6bees&r from inclement weather!"]
 			id: "06F65B431D7238A0"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "5D3B109B6472962B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Rain Shield"
 			tasks: [{
 				id: "6E41350DBB691463"
@@ -770,6 +1230,47 @@
 			dependencies: ["0C0C54BE7EDD5E8D"]
 			description: ["The &2Mutator&r consumes one catalyst every time a queen dies to increase the chance of it producing &2mutated offspring&r - check JEI for possible catalysts."]
 			id: "4067E1C7ED84F11F"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "1DE06CB0AFCF6C24"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7025041074502178"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Mutator"
 			tasks: [{
 				id: "37B3259EC7C6F08F"
@@ -783,6 +1284,13 @@
 			dependencies: ["0C0C54BE7EDD5E8D"]
 			description: ["Every &6bee&r lifecycle tick, the Hydroregulator has a chance to consume specific items to increase or decrease the humidity of the Mellarium, with a chance of producing a leftover - Check your JEI for said info."]
 			id: "5FB06C75AFFE5F01"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "3815F592031F7C29"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Hydroregulator"
 			tasks: [{
 				id: "124DD5DAAE60C7F2"
@@ -800,6 +1308,52 @@
 				"&dAmbrosia&r is a very useful food as it gives you multiple buffs keeping you fresh and healthy! Upon eating &dAmbrosia&r you gain Regenation 2, Jump Boost 3 and Absorption 2!"
 			]
 			id: "21D642692508C541"
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7A836F877219822A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "402164A56DA587AB"
+					item: "kubejs:mcejaffa"
+					type: "item"
+				}
+				{
+					id: "2DB0AB25642BB03F"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft The Complicated Bees Food"
 			tasks: [
 				{
@@ -955,6 +1509,13 @@
 				}
 			}
 			id: "120AFFC680A91661"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "6DAF8F70CA17890F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Mutations"
 			tasks: [{
 				id: "66BD3B11624E1B21"
@@ -982,5 +1543,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Complicated Bees~"
+	title: "&2Complicated Bees"
 }
