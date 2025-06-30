@@ -32,21 +32,7 @@
       "max_trades": 2,
       "experience": 4
     },
-    {
-  "type": "goblintraders:basic",
-  "offer_item": {
-    "item": "eccentrictome:tome",
-    "nbt": "{\"eccentrictome:mods\":{\"ae2\":{\"0\":{\"Count\":1b,\"id\":\"ae2:guide\"}},\"alexscaves\":{\"0\":{\"Count\":1b,\"id\":\"alexscaves:cave_book\"}},\"alexsmobs\":{\"0\":{\"Count\":1b,\"id\":\"alexsmobs:animal_dictionary\"}},\"ars_nouveau\":{\"0\":{\"Count\":1b,\"id\":\"ars_nouveau:worn_notebook\"}},\"cloudstorage\":{\"0\":{\"Count\":1b,\"id\":\"cloudstorage:guide_book\"}},\"complicated_bees\":{\"0\":{\"Count\":1b,\"id\":\"patchouli:guide_book\",\"tag\":{\"patchouli:book\":\"complicated_bees:field_guide\"}}},\"ftbquests\":{\"0\":{\"Count\":1b,\"id\":\"ftbquests:book\"}},\"goety\":{\"0\":{\"Count\":1b,\"id\":\"patchouli:guide_book\",\"tag\":{\"patchouli:book\":\"goety:black_book\"}}},\"hexcasting\":{\"0\":{\"Count\":1b,\"id\":\"patchouli:guide_book\",\"tag\":{\"patchouli:book\":\"hexcasting:thehexbook\"}}},\"iceandfire\":{\"0\":{\"Count\":1b,\"id\":\"iceandfire:bestiary\"}},\"tconstruct\":{\"0\":{\"Count\":1b,\"id\":\"tconstruct:encyclopedia\"},\"1\":{\"Count\":1b,\"id\":\"tconstruct:materials_and_you\"},\"2\":{\"Count\":1b,\"id\":\"tconstruct:mighty_smelting\"},\"3\":{\"Count\":1b,\"id\":\"tconstruct:tinkers_gadgetry\"},\"4\":{\"Count\":1b,\"id\":\"tconstruct:fantastic_foundry\"},\"5\":{\"Count\":1b,\"id\":\"tconstruct:puny_smelting\"}},\"tinkersjewelry\":{\"0\":{\"Count\":1b,\"id\":\"tinkersjewelry:book\"}}}}",
-    "count": 1
-  },
-  "payment_item": {
-    "item": "minecraft:emerald",
-    "count": 1
-  },
-  "price_multiplier": 0.0,
-  "max_trades": 1,
-  "experience": 10
-},
+   
 
 
      {
