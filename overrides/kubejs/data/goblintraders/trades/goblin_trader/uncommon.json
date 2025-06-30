@@ -36,6 +36,20 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
+        "item": "irons_spellbooks:invisibility_ring"
+      },
+      "payment_item": {
+        "count": 8,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+      {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
         "item": "bosses_of_mass_destruction:brimstone_nectar"
       },
       "payment_item": {
