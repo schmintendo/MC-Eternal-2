@@ -1622,8 +1622,15 @@
 			size: 0.7d
 			subtitle: "Craft a &eSophisticated Backpack"
 			tasks: [{
+				icon: "sophisticatedbackpacks:backpack"
 				id: "06B6E5476A2588BC"
-				item: "sophisticatedbackpacks:backpack"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mce2:sophisticated_backpacks/backpacks"
+					}
+				}
 				title: "{chapter.1.quest.8.task.1.title}"
 				type: "item"
 			}]
