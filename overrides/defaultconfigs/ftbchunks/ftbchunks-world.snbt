@@ -6,7 +6,7 @@
 	
 	# Dimension ID's where chunks may not be claimed. Add "minecraft:the_end" to this list if you want to disable chunk claiming in The End, or "othermod:*" to disable chunk claiming in *all* dimensions added by "othermod"
 	# Default: []
-	claim_dimension_blacklist: ["thegreatbeyond:thegreatbeyond", "minecraft:the_nether", "minecraft:the_end"]
+	claim_dimension_blacklist: ["thegreatbeyond:thegreatbeyond", "minecraft:the_end"]
 	
 	# Dimension ID's where chunks may be claimed. If non-empty, chunks may be claimed *only* in these dimensions (and the dimension is not in "claim_dimension_blacklist"). Same syntax as for "claim_dimension_blacklist".
 	# Default: []
