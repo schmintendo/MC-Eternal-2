@@ -42,6 +42,18 @@
           }
         },
         {
+          "biome": "alexscaves:toxic_caves",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0.45,
+            "continentalness": 0.35,
+            "erosion": 0.25,
+            "depth": 0.0,
+            "weirdness": 0.6,
+            "offset": 0.0
+          }
+        },
+        {
           "biome": "netherexp:black_ice_glaciers",
           "parameters": {
             "temperature": 0.3,
