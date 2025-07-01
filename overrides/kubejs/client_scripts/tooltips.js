@@ -4,6 +4,7 @@ ItemEvents.tooltip(event => {
 	event.add('%pitchperfect', Text.of('Changes note depending on where you look!').color('#FFFFFF')); 
 	event.add('kubejs:artifact_ghoul_heart', Text.of('§7§oStill beating in your hands..').color('#FFFFFF')); 
 	event.add('cgs:revolver', Text.of('§7§oCan be duel wielded!').color('#FFFFFF')); 
+	event.add('cgs:revolver', Text.of('§7Press Z to tinker.').color('#FFFFFF')); 
 	event.add('etched:boombox', Text.of('§7Drag Music Disc in inventory to add to Boombox!').color('#FFFFFF')); 
 	event.add('mekanism:osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('mekanism:deepslate_osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
