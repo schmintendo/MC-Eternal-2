@@ -230,11 +230,11 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	gumWormArmor = 9.0
 	#Range: 1.0 ~ 1000000.0
-	hullbreakerMaxHealth = 1400.0
+	hullbreakerMaxHealth = 800.0
 	#Range: 1.0 ~ 1000000.0
-	hullbreakerAttackDamage = 160.0
+	hullbreakerAttackDamage = 80.0
 	#Range: 0.0 ~ 1000000.0
-	hullbreakerArmor = 350.0
+	hullbreakerArmor = 35.0
 	#Range: 1.0 ~ 1000000.0
 	lanternfishMaxHealth = 2.0
 	#Range: 0.0 ~ 1000000.0
