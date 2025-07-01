@@ -779,6 +779,138 @@
 			x: -5.0d
 			y: -3.0d
 		}
+		{
+			dependencies: [
+				"1914150BEBE05F9E"
+				"26B5D1430104B5A1"
+			]
+			description: ["In order to access your &bStorage Network&r and work with all that it contains, an &eCrafting Terminal&r is needed."]
+			id: "1E0A920D550C7AC7"
+			subtitle: "The Brains"
+			tasks: [{
+				id: "1DC86128ACCFF313"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["127BD669F19CC02C"]
+			description: [
+				"Securing and maintaining an constant source of &7Power&r for an &bStorage Network&r can be troubling, but what if you didn't need any?"
+				""
+				"Introducing &dIntegrated Dynamics&r, an mod that relies on &eCrystallized Menril Chunks&r for the purposes of &eConnecting&r, &eReading&r and &eTransporting&r inventories."
+				""
+				"&6Tip:&r If you get your hands on &64x Glowstone Dust&r, before entering &4Expert Mode&r, &dIntegrated Dynamics&r is an efficient use of them for an &bearly Storage Network&r."
+			]
+			id: "551DB871D2CB8FEB"
+			subtitle: "Integrated Dynamics"
+			tasks: [{
+				id: "440E6AF5E2A32353"
+				item: "integrateddynamics:crystalized_menril_chunk"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E8025C11C76068A"]
+			description: [
+				"&eVariable Cards&r are your way of &acommunicating to your machines&r what you want to do and how you want to do them."
+				""
+				"But we aren't going to make use of them yet in this chapter, outside of crafting recipes."
+				""
+				"Though that doesn't mean you can't experiment and explore their potential yourself."
+			]
+			id: "26B5D1430104B5A1"
+			subtitle: "Instructing your Network"
+			tasks: [{
+				id: "38869DCCA28D998B"
+				item: "integrateddynamics:variable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E8025C11C76068A"]
+			description: [
+				"The &eDrying Baisen&r can be used for more than just drying &eMenril Blocks&r."
+				""
+				"Moving forward we are going to need &eMenril Glass&r; A single piece will do, but use this as a moment to explore it alternative uses."
+				"{@pagebreak}"
+				"&6Hint:&r Try placing &eGlass&r within an Drying Baisen, &ebefore&r adding in some Menril Resin."
+			]
+			id: "1914150BEBE05F9E"
+			subtitle: "Crafting Material or Building Block?"
+			tasks: [{
+				id: "199593F6EF871C4A"
+				item: "integratedterminals:menril_glass"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["551DB871D2CB8FEB"]
+			description: [
+				"First up on the choping block are the &eSqueezer&r and the &eDrying Basin&r."
+				""
+				"The Squeezer can be used to compress &eMenril Logs/Planks&r into &eMenril Resin&r, an fluid form of Menril."
+				""
+				"Within a &eDrying Basin&r, Menril Resin can be dried to form &eBlocks of Crystallized Menril&r."
+				""
+				"&6Hint:&r Drying Basins &eOutput&r the fluids they produce through the &eDirectional Drain&r on it's base."
+				"{@pagebreak}"
+				"&6Tip:&r The &eSqueezer&r and the &eDrying Basin&r have many more uses; Pressing &e'U'&r on an item within your inventory or &aJEI&r menu will show you all of it's products."
+			]
+			id: "7E8025C11C76068A"
+			subtitle: "Moar Menril"
+			tasks: [
+				{
+					id: "527C0DE28EA32794"
+					item: "integrateddynamics:squeezer"
+					type: "item"
+				}
+				{
+					id: "0C3DA3AB55E35B28"
+					item: "integrateddynamics:drying_basin"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E0A920D550C7AC7"]
+			description: [
+				"The final step is connecting your &eStorage&r and &eTerminal&r to form your &bStorage Network&r."
+				""
+				"&eLogic Cables&r are the medium in which everything flows, and &eInterfaces&r are the way to introduce external objects into your &eNetwork&r."
+				"{@pagebreak}"
+				"With that, we've built our &bStorage Network&r, but that's not the end for &dIntegrated Dynamics&r; It specilizes in doing &avery specific tasks that it's alternatives might not be able to&r through &eVariable Cards&r and their &9extensive permissions&r."
+				""
+				"You can being exploring more by interacting with &eInport/Export Interfaces&r."
+			]
+			id: "1836209E7FC7CD19"
+			subtitle: "The Nerves"
+			tasks: [
+				{
+					id: "30A87EECC1CC7EA0"
+					item: "integrateddynamics:cable"
+					type: "item"
+				}
+				{
+					id: "1C252A9DB4E01CB4"
+					item: "integratedtunnels:part_interface_item"
+					type: "item"
+				}
+			]
+			title: "Cables"
+			x: 9.0d
+			y: 1.0d
+		}
 	]
 	title: "&6Storage Solutions!"
 }
