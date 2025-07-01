@@ -482,6 +482,14 @@
     "damagemultiply": 8.5,
     "speedmultiply": 1.5
   },
+      {
+    "dimension": "thegreatbelow:thegreatbelow",
+    "mob": "alexsmobs:rocky_roller",
+    "when": "finalize",
+    "healthmultiply": 3.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.5
+  },
    {
     "mob": "alexsmobs:laviathan",
     "when": "onjoin",
