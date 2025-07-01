@@ -9,7 +9,7 @@
   # Whether this mob family replaces vanilla witches with its vanilla replacement species.
   # The "master_vanilla_replacement" setting in the mod's main config must also be true for this to work.
   # <Boolean> Valid Values: { true, false }, Default: true
-  general.vanilla_replacement = true
+  general.vanilla_replacement = false
 
   # When greater than 0, witches will have a random render scale applied. This is a visual effect only. If this is set
   #   to a non-negative value, it overrides the value set for "master_random_scaling", though species configs can
