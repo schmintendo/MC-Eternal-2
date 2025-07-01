@@ -13,7 +13,7 @@
 		#Boss Has Percentage Damage
 		"Boss拥有百分比伤害" = true
 		#Boss Has Damage Cap
-		"Boss拥有限伤" = true
+		"Boss拥有限伤" = false
 		#Boss Has Damage Cooldown Tick
 		"Boss拥有无敌帧" = false
 
@@ -32,7 +32,7 @@
 			"War Wither Melee Damage" = 55.0
 			#[Boss] Armor : 4.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			"War Wither Armor" = 12.0
+			"War Wither Armor" = 15.0
 			#[Boss] Movement Speed : 0.60
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"War Wither Movement Speed" = 0.7
