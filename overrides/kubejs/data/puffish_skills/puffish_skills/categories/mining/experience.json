@@ -154,6 +154,110 @@
 							}
 						]
 					},
+					"cinnabar_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:cinnabar_ore"
+								}
+							}
+						]
+					},
+					"lead_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:lead_ore"
+								}
+							}
+						]
+					},
+					"nickel_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:nickel_ore"
+								}
+							}
+						]
+					},
+					"niter_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:niter_ore"
+								}
+							}
+						]
+					},
+					"silver_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:silver_ore"
+								}
+							}
+						]
+					},
+					"sulfur_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:sulfur_ore"
+								}
+							}
+						]
+					},
+					"tin_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:tin_ore"
+								}
+							}
+						]
+					},
+					"zinc_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "create:zinc_ore"
+								}
+							}
+						]
+					},
 					"deepslate_coal_ore": {
 						"operations": [
 							{
@@ -257,16 +361,29 @@
 								}
 							}
 						]
+					},
+					"deepslate_zinc_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "create:deepslate_zinc_ore"
+								}
+							}
+						]
 					}
 				},
 				"experience": [
 			
 					{
-						"condition": "!silk_touch & (coal_ore | copper_ore | iron_ore | gold_ore | redstone_ore | lapis_ore | diamond_ore | emerald_ore)",
+						"condition": "!silk_touch & (coal_ore | copper_ore | iron_ore | gold_ore | redstone_ore | lapis_ore | diamond_ore | emerald_ore | cinnabar_ore | lead_ore | nickel_ore | niter_ore | silver_ore | sulfur_ore | tin_ore | zinc_ore)",
 						"expression": "1"
 					},
 					{
-						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore)",
+						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore | deepslate_zinc_ore)",
 						"expression": "5"
 					}
 				]
