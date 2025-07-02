@@ -105,11 +105,13 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["33DBFD4B00935B0A"]
 			description: [
-				"&6Hint:&r When you complete this quest, you will be automatically transported! &oIt's a fast plane!"
+				"When you complete this quest, you will be automatically transported! &oIt's a fast plane!"
+				""
 				"&eTip:&r Monsters do not spawn above ground in The Sakura Dimension! It is also always day-time! Watch out for structures though, monsters will populate those!"
 				"&dDon't forget to thank the pilot!"
+				""
+				"&6Hint:&r Make sure to put down the &dWaystone&r when you arrive! So you can always return!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -166,7 +168,7 @@
 					type: "command"
 				}
 				{
-					auto: "enabled"
+					auto: "invisible"
 					command: "/titles add {p} titles:tourist"
 					console: true
 					icon: "titles:title_scroll_common"
@@ -183,6 +185,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "5DE4125F3DDF9668"
+					item: "waystones:mossy_waystone"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			subtitle: "Thank you for travelling with Rat-Air™, we hope you enjoy your flight and complimentary meal!"
@@ -193,11 +200,9 @@
 					type: "checkmark"
 				}
 				{
-					amount: 1500L
-					currency: "eternalcurrencies:coins"
-					id: "172DD2098EEA440E"
-					title: "&6Fare"
-					type: "eternalcurrencies:currency"
+					id: "23583976081DCE1C"
+					item: "kubejs:travel_ticket"
+					type: "item"
 				}
 			]
 			title: "&6One-Way-Ticket To: &dSakura Dimension"
@@ -404,7 +409,7 @@
 					type: "questsadditions:time"
 				}
 			]
-			title: "&6Return-Ticket To: &eSpawn - The Overworld"
+			title: "&6One-Way-Ticket To: &eSpawn - The Overworld"
 			x: 1.0357142857142918d
 			y: 3.5535714285714306d
 		}
