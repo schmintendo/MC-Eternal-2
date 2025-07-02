@@ -186,7 +186,7 @@
 					type: "item"
 				}
 				{
-					id: "5DE4125F3DDF9668"
+					id: "6CE20959B37497A3"
 					item: "waystones:mossy_waystone"
 					type: "item"
 				}
@@ -200,9 +200,17 @@
 					type: "checkmark"
 				}
 				{
+					consume_items: true
 					id: "23583976081DCE1C"
 					item: "kubejs:travel_ticket"
 					type: "item"
+				}
+				{
+					elapsedTime: 600L
+					gameTime: "system"
+					id: "6626A182C339F25F"
+					title: "&6Cooldown"
+					type: "questsadditions:time"
 				}
 			]
 			title: "&6One-Way-Ticket To: &dSakura Dimension"
@@ -405,7 +413,7 @@
 					elapsedTime: 120L
 					gameTime: "system"
 					id: "665CA77AD0530702"
-					title: "&eCooldown"
+					title: "&6Cooldown"
 					type: "questsadditions:time"
 				}
 			]
