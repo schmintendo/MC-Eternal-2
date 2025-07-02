@@ -362,6 +362,95 @@
 							}
 						]
 					},
+					"deepslate_cinnabar_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:deepslate_cinnabar_ore"
+								}
+							}
+						]
+					},"deepslate_lead_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:deepslate_lead_ore"
+								}
+							}
+						]
+					},"deepslate_nickel_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:deepslate_nickel_ore"
+								}
+							}
+						]
+					},
+					"deepslate_niter_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:deepslate_niter_ore"
+								}
+							}
+						]
+					},
+					"deepslate_silver_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:deepslate_silver_ore"
+								}
+							}
+						]
+					},
+					"deepslate_sulfur_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:deepslate_sulfur_ore"
+								}
+							}
+						]
+					},
+					"deepslate_tin_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "thermal:deepslate_tin_ore"
+								}
+							}
+						]
+					},
 					"deepslate_zinc_ore": {
 						"operations": [
 							{
@@ -383,7 +472,7 @@
 						"expression": "1"
 					},
 					{
-						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore | deepslate_zinc_ore)",
+						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore | deepslate_cinnabar_ore | deepslate_lead_ore | deepslate_nickel_ore | deepslate_niter_ore | deepslate_silver_ore | deepslate_sulfur_ore | deepslate_tin_ore | deepslate_zinc_ore)",
 						"expression": "5"
 					}
 				]
