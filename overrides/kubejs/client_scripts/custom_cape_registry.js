@@ -13,7 +13,8 @@ CapeJS.addCapes(event => {
   event.register("473d39c3-be18-4964-abd9-2787da95cd51", "friend");
   event.register("9d7f4217-ab8f-4bb6-a034-27b40b7524db", "friend");
   event.register("4b654283-2889-4ce2-aeac-5e6311d0c058", "friend");
-  event.register("a9dbdb3a-441a-4cfe-a28b-c508436140b3", "friend");
+  event.register("a9dbdb3a-441a-4cfe-a28b-c508436140b3", "friend"); 
+  event.register("95ae1b67-1ee6-4ff7-ae21-b7773415f7e1", "friend"); 
   event.register("c5d2d329-a8e8-428c-bd62-3491d7064087", "friend");
   event.register("fabd0a49-3695-401c-9990-d95464632a6a", "friend");
   event.register("00d2ad55-6151-4296-a461-373a763a9810", "friend");
