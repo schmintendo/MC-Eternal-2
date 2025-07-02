@@ -1,17 +1,14 @@
 
+const tagNoCapture = "#c:capturing_not_supported"
+
+const tagNoFarming = "#c:spawning_not_supported"
 
 
 ServerEvents.tags("entity_type", event => {
 
-    let cNoCapture = "c:capturing_not_supported"
-
-    let cNoFarming = "c:spawning_not_supported"
-
-    
     //No Capture
-    event.add(cNoCapture, [
+    event.add("c:capturing_not_supported", [
         "#forge:bosses",
-        "minecraft:wither",
         "minecraft:warden",
         "irons_spellbooks:citadel_keeper",
         "irons_spellbooks:pyromancer",
@@ -24,12 +21,6 @@ ServerEvents.tags("entity_type", event => {
         "irons_spellbooks:priest",
         "irons_spellbooks:cultist",
         "goblintraders:goblin_trader",
-        "cataclysm:ignis",
-        "cataclysm:the_harbinger",
-        "cataclysm:the_leviathan",
-        "cataclysm:netherite_monstrosity",
-        "cataclysm:ancient_remnant",
-        "cataclysm:maledictus",
         "bosses_of_mass_destruction:lich",
         "bosses_of_mass_destruction:gauntlet",
         "bosses_of_mass_destruction:void_blossom",
@@ -40,30 +31,36 @@ ServerEvents.tags("entity_type", event => {
         "iceandfire:lightning_dragon",
         "iceandfire:fire_dragon",
         "iceandfire:ice_dragon",
+        "iceandfire:sea_serpent",
         "masquerader_mod:masquerader"
     ])
 
 
     event.add("ars_nouveau:jar_blacklist", [
-        cNoCapture
+        tagNoCapture
     ])
 
     event.add("enderio:soul_vial_blacklist", [
-        cNoCapture
+        tagNoCapture
     ])
 
     event.add("occultism:soul_gem_deny_list", [
-        cNoCapture
+        tagNoCapture
     ])
 
 
     //No Spawning
-    // inherits from No Capture, because if we don't want something caught, we probably do not want it farmed either.
-    event.add(cNoFarming, [
-        cNoCapture
+    // inherits from No Capture
+    // because if we don't want something caught, we probably do not want it farmed either.
+    event.add("c:spawning_not_supported", [
+        tagNoCapture
+    ])
+
+    event.add("ars_nouveau:drygmy_blacklist", [
+        tagNoFarming
     ])
 
     event.add("enderio:spawner_blacklist", [
-        cNoFarming
+        tagNoFarming
     ])
 })
