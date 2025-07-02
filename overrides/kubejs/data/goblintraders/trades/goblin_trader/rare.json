@@ -167,7 +167,7 @@
         "item": "skillcloaks:green_sack"
       },
       "payment_item": {
-        "count": 20,
+        "count": 40,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
@@ -225,7 +225,7 @@
         "item": "skillcloaks:blue_sack"
       },
       "payment_item": {
-        "count": 20,
+        "count": 40,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
@@ -1297,7 +1297,7 @@
 			},
 			"payment_item": {
 				"item": "minecraft:emerald",
-				"count": 45
+				"count": 50
 			},
 			"price_multiplier": 0.5,
 			"max_trades": 1,
