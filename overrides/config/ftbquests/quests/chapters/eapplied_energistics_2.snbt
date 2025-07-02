@@ -680,7 +680,7 @@
 				""
 				"If you haven't already this is the time to make use of your &aFavourate Energy Mod&r and produce the power for your future contraptions to use."
 				""
-				"&6Tip:&r In order to transfer external &7Power Generation&r into &dAE2&r, all you need is an &eEnergy Acceptor&r. Just place you acceptor next to your &eEnergy Cell&r, hook your power into it and watch your battery fill."
+				"&6Tip:&r In order to transfer external &7Power Generation&r into &dAE2&r, all you need is an &eEnergy Acceptor&r. Just connect your acceptor to your Network, hook your power into, it and watch your battery fill!"
 			]
 			icon: "ae2:controller"
 			id: "5F39514D991EB2B8"
@@ -2151,7 +2151,8 @@
 				""
 				"--That same &5Fluix Cable&r can be used to &eImport/Export&r, by introducing a &eMediating Storage&r, such as an barrel for &eItems&r or an tank for &eFluids/Gases&r, and connecting to the &ePrimary Network&r using an &eImport Bus Filtered&r with the items your operations need, and an &eExport Bus Filtered&r with the outputs that you've produced."
 				""
-				"*Don't forget to use an &eStorage Bus&r/&eMe Interface&r as your &eSub-Network&r needs an way to access the &eMediating Storage&r*"
+				"*Don't forget to use an &eStorage Bus&r/&eMe Interface&r as your &eSub-Network&r needs a way to access the &eMediating Storage&r*"
+
 				"{@pagebreak}"
 				"&eImport Bus&r on the left of the barrel to recive output, &eExport Bus&r on the top of the barrel to provide resources, &eStorage Bus&r on the front of the barrel allowing &eSub-Network&r access into Mediating Storage, &7Quartz Fiber&r on the only connecting &5Fluix Cable&r between the &eSub-Network&r and &bPrimary Network&r to provide &7Power&r."
 				"{image:modpack:textures/ae2_simple_sub_network.png width:200 height:100 align:center}"
