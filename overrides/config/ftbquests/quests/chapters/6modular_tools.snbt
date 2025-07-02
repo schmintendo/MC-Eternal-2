@@ -573,7 +573,7 @@
 		}
 		{
 			height: 2.0d
-			image: "modpack:textures/tinkers_construct_logo.png"
+			image: "modpack:textures/tc_logo.png"
 			rotation: 0.0d
 			width: 5.08d
 			x: 1.1428571428571388d
@@ -686,10 +686,10 @@
 		{
 			dependencies: ["5B5A340DB47B9C89"]
 			description: [
-				"The &eTinker's Anvil &rallows for tool modification try applying modifiers using your tools upgrade slots!"
+				"The &eTinker's Anvil &rallows for tool modification. Try applying modifiers using your tools upgrade slots!"
 				""
-				"&l&6Hint:&r Trying applying redstone to one of your tools, this increases the tools haste! (Haste has no effect on attack speed)"
-				"{image:modpack:textures/tc_3.png width:180 height:100 align:center}"
+				"\"&l&6Hint:&r Trying applying &cRedstone&r to one of your Tools. It'll make it a bit faster! (But only at breaking stuff!)\""
+				"{image:modpack:textures/tc_4.png width:180 height:100 align:center}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -757,9 +757,11 @@
 			description: [
 				"&eThe Smeltery&r is a multi-block structure used in the creation of higher-tier weapons and tools using metal and alloys."
 				""
-				"&e&lTip:&r Raw metals smelted in a Tinker's Smeltery produce a little extra! Ore blocks smelted produce double!"
+				"&e&lTip:&r Raw metals smelted in a Tinker's Smeltery produce a little extra! Ore blocks smelted produce double! "
+				"&e&lTip:&r Increasing the size of your Smeltery will also increase Fuel usage per smelt."
+				""
 				"&6&lHint:&r Adding extra layers of &eSeared Bricks&r will increase the Smeltery's capacity!"
-				"{image:modpack:textures/smeltery.png width:180 height:100 align:center}"
+				"{image:modpack:textures/tc_3.png width:180 height:100 align:center}"
 				"For more detailed information, read &eMighty Smelting"
 			]
 			hide_until_deps_visible: true
@@ -860,7 +862,7 @@
 				""
 				"&6Tip: &rThis is a Multi-Block! "
 				"&eHint:&r This will be needed for the next quest!"
-				"{image:modpack:textures/tc.png width:180 height:100 align:center}"
+				"{image:modpack:textures/tc_2.png width:180 height:100 align:center}"
 			]
 			hide_until_deps_visible: true
 			id: "116CDE1481CC3846"
@@ -915,7 +917,7 @@
 		{
 			dependencies: ["116CDE1481CC3846"]
 			description: [
-				"Using the &eSeared Melter&r create a &eSmeltery Controller&r by pouring molten copper over a &eSeared Heater"
+				"Using the &eSeared Melter&r create a &eSmeltery Controller&r by pouring molten copper over &eSeared Bricks"
 				""
 				"&e&lHint:&r This will be needed for the next quest!"
 			]
@@ -1288,7 +1290,7 @@
 				""
 				"&l&6Hint:&r Another way to obtain blazing blood is by melting down ichor. You will need a bit of &eblazing blood &rto get started, but I heard you can obtain some from bartering with piglins."
 				""
-				"{image:modpack:textures/blazing-blood.png width:180 height:100 align:center}"
+				"{image:modpack:textures/tc_blaze.png width:180 height:100 align:center}"
 			]
 			id: "7F42CAE7EEF5DD33"
 			rewards: [
@@ -1403,6 +1405,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Deal 21 damage or more in a single hit."]
 			id: "36EE964CF3FB56AC"
 			rewards: [{
 				amount: 150L
@@ -1412,14 +1415,14 @@
 				type: "eternalcurrencies:currency"
 			}]
 			shape: "pentagon"
-			subtitle: "Deal 21 damage or more in a single hit"
+			subtitle: "Maybe &6Niko &rhas a &eTool &rwe can use?"
 			tasks: [{
 				advancement: "tconstruct:tools/one_shot"
 				criterion: ""
 				id: "592E720FFC5A9322"
 				type: "advancement"
 			}]
-			title: "&eOverkill"
+			title: "&eYou only get One Shot"
 			x: 8.273809523809518d
 			y: 3.999999999999986d
 		}
@@ -1446,7 +1449,7 @@
 		}
 		{
 			dependencies: ["72B878D6A0C6EDFC"]
-			description: ["&l&eTip:&r Read more about slime skulls and there effects in the encyclopedia of tinkering guide book"]
+			description: ["&l&eTip:&r Read more about Slimeskulls and their effects in the &6Encyclopedia of Tinkering&r!"]
 			id: "72AF5955C9BE50B2"
 			rewards: [
 				{
@@ -1720,7 +1723,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{image:modpack:textures/skyslime-island.png width:180 height:100 align:center}"]
+			description: ["{image:modpack:textures/tc_slime.png width:180 height:100 align:center}"]
 			id: "41713364F7276A5C"
 			rewards: [{
 				amount: 150L
@@ -1787,7 +1790,7 @@
 					command: "/titles add {p} titles:Origin"
 					icon: "titles:title_scroll_common"
 					id: "44E12299780E68CE"
-					title: "&eUnlock Title:&r Origin of Steel"
+					title: "&eUnlock Title:&r Monarch of Steel"
 					type: "command"
 				}
 			]
@@ -1911,12 +1914,35 @@
 				id: "00E3BB9245A6F07B"
 				item: {
 					Count: 1
-					id: "itemfilters:tag"
+					id: "tinkersjewelry:ring"
 					tag: {
-						value: "tinkersjewelry:modifiable/jewelry"
+						Damage: 0
+						etstlib_tool_uuid: "bb503890-647f-4465-915b-7118014ec13c"
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:copper"
+							"tconstruct:rock"
+						]
+						tic_modifiers: [
+							{
+								level: 1
+								name: "tinkersjewelry:ductile"
+							}
+							{
+								level: 1
+								name: "tinkersjewelry:armor_gem"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:durability": 143.0f
+							"tinkersjewelry:amplification": 0.963f
+						}
 					}
 				}
-				title: "Any #tinkersjewelry:modifiable/jewelry"
+				match_nbt: false
+				tags: [""]
+				title: "Any Completed Ring"
 				type: "item"
 			}]
 			title: "&eMore than Fashion &r(Part II)"
@@ -2013,50 +2039,27 @@
 		}
 		{
 			dependencies: ["253E532D09E3AA9B"]
-			description: ["&l&eTip:&r Can be used as both a material and upgrade component. Using it as a tool material won't allow for you to upgrade your tool with it."]
-			hide_until_deps_complete: true
-			id: "2F05F85B20E56481"
-			rewards: [
-				{
-					amount: 500L
-					currency: "eternalcurrencies:coins"
-					id: "6C0C64957713F068"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "286A78548B80B7C5"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
-							}
-							type: "curious_box"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "615D5C5DC101E23F"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
+			description: [
+				"Try all the available &eupgrades &rand &eabilities! &rExplore what every mod has to offer in the world of &6Tinkers' Construct!"
+				""
+				"&l&eTip:&r Antimatter pellets can be used as both a material and upgrade component. Using it as a tool material won't allow for you to upgrade your tool with it."
 			]
+			hide_until_deps_complete: true
+			icon: "mekanism:pellet_antimatter"
+			id: "2F05F85B20E56481"
+			rewards: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "6C0C64957713F068"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			shape: "pentagon"
-			subtitle: "Craft a &eAntimatter Pellet"
+			subtitle: "Weaponize &eAntimatter"
 			tasks: [{
-				id: "6A99E2BDF326642D"
-				item: "mekanism:pellet_antimatter"
-				type: "item"
+				id: "2185EAF992D447A5"
+				title: "Further Your Understanding"
+				type: "checkmark"
 			}]
 			title: "&6Theory will only take you so far..."
 			x: 12.0d
@@ -2138,7 +2141,7 @@
 		}
 		{
 			dependencies: ["38E247B9906A65AF"]
-			description: ["&e&lTip:&r Slimesteel allows for Overslime to be applied to tools with out inccurring any penalties"]
+			description: ["&e&lTip:&r Slimy Materials (like Slimesteel!) allow for Overslime to be applied to tools with out inccurring any penalties"]
 			id: "277690DF8B5C2D11"
 			rewards: [
 				{
@@ -2226,7 +2229,7 @@
 				""
 				"Overslime when applied to tools consume overslime instead of durability, it can be reapplied by combining the tool with more slime. "
 				""
-				"&6&lHint:&r Tools not made of slime can have Overslime applied at a heavy cost!"
+				"\"&6&lHint:&r Tools not made of slime can have Overslime applied, but at a small cost to their Stats!\""
 				""
 				"&e&lTip:&r Different colors of slime each have their own purpose, so try to collect them all."
 			]
@@ -2259,66 +2262,6 @@
 			title: "&eSky-Goo"
 			x: 13.902380952380966d
 			y: 3.635714285714265d
-		}
-		{
-			dependencies: ["6A9B032F89F5769A"]
-			hide_until_deps_complete: true
-			id: "032C373B6A919F91"
-			optional: true
-			rewards: [
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "0DB61D65984714B9"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "1503814BE3007D42"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							Enchantments: [{
-								id: "ars_nouveau:reactive"
-								lvl: 1
-							}]
-							HideFlags: 33
-							display: {
-								Lore: [
-									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
-									"{\"text\":\"§7§oRight-Click to Open\"}"
-								]
-								Name: "{\"text\":\"§eQuest Loot\"}"
-							}
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								id: "quark:rainbow_rune"
-							}
-							rpgloot.randomize: 0b
-							type: "quest_loot"
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			subtitle: "Craft a &eSlimy Vine Bowstring"
-			tasks: [{
-				id: "7C2CBB52045B8055"
-				item: {
-					Count: 1
-					id: "tconstruct:bowstring"
-					tag: {
-						Material: "tconstruct:skyslime_vine"
-					}
-				}
-				type: "item"
-			}]
-			title: "&eSlimy String"
-			x: 17.190476190476197d
-			y: 0.8571428571428612d
 		}
 		{
 			dependencies: ["6A9B032F89F5769A"]
@@ -2372,8 +2315,8 @@
 				type: "advancement"
 			}]
 			title: "&eAim True"
-			x: 17.761904761904766d
-			y: 1.4285714285714306d
+			x: 17.0d
+			y: 1.0d
 		}
 	]
 	title: "&6Tinker's Construct &o(Modular Tools)"
