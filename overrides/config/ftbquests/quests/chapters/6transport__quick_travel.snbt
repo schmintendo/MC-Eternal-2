@@ -206,6 +206,7 @@
 					type: "item"
 				}
 				{
+					disable_toast: true
 					elapsedTime: 600L
 					gameTime: "system"
 					id: "6626A182C339F25F"
