@@ -12,6 +12,8 @@ StartupEvents.registry("item", event => {
 
   event.create('artifact_endergem').displayName('§bSoul Stone').glow(false);
   
+  event.create('travel_ticket').displayName('§dTravel Ticket - Sakura Dimension').glow(true);
+  
   event.create('vegan_leather').displayName('§7Ethically™ Sourced Leather').glow(false);
 
   event.create('scorched_letter').displayName('§cBodyguard Contract - Zombie Absorber').glow(true);

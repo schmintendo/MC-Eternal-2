@@ -308,7 +308,7 @@
 'cataclysm:modern_remnant' : '',
 'cataclysm:nameless_sorcerer' : '',
 'cataclysm:netherite_ministrosity' : '',
-'cataclysm:netherite_monstrosity' : '{Count:1b,id:"endrem:lost_eye",tag:{Damage:0,dropchance:1.0d}}|||{Count:1b,id:"relics:magma_walker",tag:{abilities:{pace:{points:0,stats:{time:46.66041d}}},dropchance:1.0d}}',
+'cataclysm:netherite_monstrosity' : '{Count:1b,id:"endrem:lost_eye",tag:{Damage:0,dropchance:1.0d}}|||{Count:1b,id:"relics:magma_walker",tag:{abilities:{pace:{points:0,stats:{time:46.66041d}}},dropchance:1.0d}}|||{Count:1b,id:"kubejs:travel_ticket",tag:{dropchance:0.5d}}',
 'cataclysm:old_netherite_monstrosity' : '',
 'cataclysm:royal_draugr' : '',
 'cataclysm:scylla' : '{Count:1b,id:"endrem:exotic_eye",tag:{Damage:0,dropchance:1.0d}}',

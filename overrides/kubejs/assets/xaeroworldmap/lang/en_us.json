@@ -58,7 +58,7 @@
 	"gui.xaero_open_map_animation" : "Animation On Open",
 	"gui.xaero_wm_slopes_default_3d" : "Default 3D",
 	"gui.xaero_wm_slopes_default_2d" : "Default 2D",
-	"effect.xaeroworldmap.no_world_map" : "§§b???",
+	"effect.xaeroworldmap.no_world_map" : "§b???",
 	"effect.xaeroworldmap.no_world_map.description" : "§8§oA dark and dense haze consumes you.. The World-Map and Mini-Map cannot be used in The Great Below....",
 	"effect.xaeroworldmap.no_world_map_harmful" : "Lost",
 	"effect.xaeroworldmap.no_world_map_beneficial" : "No World Map",
