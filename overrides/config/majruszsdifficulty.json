@@ -352,12 +352,12 @@
       "health_bonus": {
         "__default": 0.0,
         "expert": 0.1,
-        "master": 0.5
+        "master": 0.2
       },
       "damage_bonus": {
         "__default": 0.0,
         "expert": 0.2,
-        "master": 0.4
+        "master": 0.3
       },
       "excluded_mobs": []
     },
