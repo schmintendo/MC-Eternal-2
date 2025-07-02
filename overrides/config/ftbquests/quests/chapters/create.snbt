@@ -2102,7 +2102,8 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a &eBlaze Cake"
+			subtitle: "Craft some &eBlaze Cakes"
+
 			tasks: [{
 				count: 4L
 				id: "3A2DAAD533BC54A5"
