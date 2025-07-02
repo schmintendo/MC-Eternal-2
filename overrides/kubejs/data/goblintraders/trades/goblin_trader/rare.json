@@ -30,6 +30,20 @@
       },
       "price_multiplier": 0.0
     },
+	   {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:travel_ticket"
+      },
+      "payment_item": {
+        "count": 35,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
      {
       "type": "goblintraders:basic",
       "experience": 10,
