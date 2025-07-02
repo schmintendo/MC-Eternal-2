@@ -1787,7 +1787,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p} titles:Origin"
+					command: "/titles add {p} titles:origin"
 					icon: "titles:title_scroll_common"
 					id: "44E12299780E68CE"
 					title: "&eUnlock Title:&r Monarch of Steel"
