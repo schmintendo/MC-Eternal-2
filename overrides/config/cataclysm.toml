@@ -459,10 +459,10 @@
 	AptrgangrHealthMultiplier = 2.5
 	#Aptrgangr's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AptrgangrDamageMultiplier = 2.5
+	AptrgangrDamageMultiplier = 1.8
 	#Axe Blade's Damage
 	#Range: 0.0 ~ 1000000.0
-	AptrgangrAxeBladeDamage = 42.0
+	AptrgangrAxeBladeDamage = 60.0
 
 [Maledictus]
 	#Maledictus's Health Multiplier
