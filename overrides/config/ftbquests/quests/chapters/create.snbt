@@ -1173,7 +1173,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Every Engineer Needs His Workshop"
+			subtitle: "Every Engineer Needs Their Workshop"
+
 			tasks: [
 				{
 					id: "29E2429D36336B83"
