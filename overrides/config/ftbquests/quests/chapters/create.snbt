@@ -133,7 +133,7 @@
 			image: "create:block/axis"
 			rotation: 20.0d
 			width: 1.0d
-			x: -4.72d
+			x: -4.71d
 			y: -5.8d
 		}
 		{
@@ -281,9 +281,9 @@
 			description: [
 				"&3Create&f is a tech mod unlike many others. It allows for custom &dContraptions&f and &dFactories&f to produce and transport goods."
 				""
-				"&eZinc&f is an essential ore found underground in the &2Overworld&f and is used for almost every item in the pack"
+				"&eZinc&f is an essential ore found underground in the &2Overworld&f and is used for almost every item in the pack."
 				""
-				"&eTip:&f If you are unsure of how an item works in Create, &6holding W to ponder&f will provide you a visual "
+				"&eTip:&f If you are unsure of how an item works in Create, &6holding W to ponder&f will provide you a visual. "
 			]
 			icon: "create:wrench"
 			id: "033E2E587625AC61"
@@ -328,7 +328,7 @@
 			description: [
 				"A &eWater Wheel&f is your first form of power in Create."
 				""
-				"By placing flowing water, the &eWater Wheel&f will spin creating &eSU"
+				"By placing flowing water, the &eWater Wheel&f will spin creating &eSU."
 			]
 			icon: "create:water_wheel"
 			id: "4F416047476A33C9"
@@ -390,7 +390,7 @@
 				"74754A564AB73DCF"
 				"4792D04B4063D2BC"
 			]
-			description: ["Interacting with a &6Blaze&r or &6Blaze Spawner&r with an empty &eBlaze Burner&r will capture the &6Blaze&r allowing advanced mixing"]
+			description: ["Interacting with a &6Blaze&r or &6Blaze Spawner&r with an empty &eBlaze Burner&r will capture the &6Blaze&r allowing advanced mixing."]
 			icon: "create:blaze_burner"
 			id: "225CBFC2C8EE70F9"
 			rewards: [
@@ -636,13 +636,13 @@
 		{
 			dependencies: ["1D9A770D9C0B128F"]
 			description: [
-				"The &eEncased Fan&r is an important block that allows conversion of materials through various means"
+				"The &eEncased Fan&r is an important block that allows conversion of materials through various means."
 				""
-				"Water: This functions as a &6washer&r allowing conversion of some materials (Sand -> Clay)"
+				"Water: This functions as a &6washer&r allowing conversion of some materials (Sand -> Clay)."
 				""
-				"Lava: This functions as a &6smelter&r allowing infinite smelting for free"
+				"Lava: This functions as a &6smelter&r allowing infinite smelting for free."
 				""
-				"Campfire: This functions as a &6cooker&r allowing the cooking of food items"
+				"Campfire: This functions as a &6cooker&r allowing the cooking of food items."
 			]
 			icon: "create:encased_fan"
 			id: "4792D04B4063D2BC"
@@ -796,7 +796,7 @@
 			description: [
 				"The &eMechanical Saw&f can be used to cut down an entire tree in a single chop."
 				""
-				"Passing logs through a &eMechanical Saw&r will strip them and yield more planks."
+				"When facing upwards, passing Logs through a &eMechanical Saw&r will cut Items, for Logs, first Stripping them, and then cutting them into more Planks than usual!"
 			]
 			icon: "minecraft:spruce_log"
 			id: "36D38E50082314B0"
@@ -968,32 +968,11 @@
 		}
 		{
 			dependencies: ["40A64D59F1186585"]
-			id: "11834C20D8EBA235"
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "7ACBB6295F9F1395"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			shape: "diamond"
-			size: 0.65d
-			subtitle: "Essential in your Journey "
-			tasks: [{
-				count: 16L
-				id: "58608757A73381FC"
-				item: "create:iron_sheet"
-				type: "item"
-			}]
-			x: 1.33d
-			y: -2.57d
-		}
-		{
-			dependencies: ["40A64D59F1186585"]
+			icon: "create:iron_sheet"
 			id: "18DA2B3AE200EB17"
 			optional: true
 			rewards: [{
-				amount: 50L
+				amount: 80L
 				currency: "eternalcurrencies:coins"
 				id: "08EDB15336E3C281"
 				ignore_reward_blocking: true
@@ -1001,12 +980,28 @@
 			}]
 			shape: "diamond"
 			size: 0.65d
-			tasks: [{
-				count: 8L
-				id: "4C305F5BAB36E339"
-				item: "create:golden_sheet"
-				type: "item"
-			}]
+			subtitle: "All the basics you'll need!"
+			tasks: [
+				{
+					count: 8L
+					id: "016345B7382BC0B2"
+					item: { Count: 8, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A44F54025683C35"
+					item: { Count: 8, id: "create:golden_sheet" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5118EF637DEB0BE4"
+					item: { Count: 8, id: "create:copper_sheet" }
+					type: "item"
+				}
+			]
+			title: "Basic Sheets"
 			x: 1.62d
 			y: -2.28d
 		}
@@ -1015,7 +1010,7 @@
 			id: "731EB61AC3C46279"
 			optional: true
 			rewards: [{
-				amount: 50L
+				amount: 100L
 				currency: "eternalcurrencies:coins"
 				id: "1FE5508C6DB5FC66"
 				ignore_reward_blocking: true
@@ -1023,39 +1018,16 @@
 			}]
 			shape: "diamond"
 			size: 0.65d
-			subtitle: "Great for Fluids"
+			subtitle: "For your brass needs!"
 			tasks: [{
 				count: 8L
-				id: "7E74E99B876199D0"
-				item: "create:copper_sheet"
+				id: "76452B3934CAA4CC"
+				item: { Count: 8, id: "create:brass_sheet" }
 				type: "item"
 			}]
+			title: "Brass Sheets"
 			x: 1.9d
 			y: -2.0d
-		}
-		{
-			dependencies: ["40A64D59F1186585"]
-			description: ["Applying lava to obsidian dust and pressing it twice will create sturdy sheets"]
-			id: "5BCA12396AB67AF7"
-			optional: true
-			rewards: [{
-				amount: 150L
-				currency: "eternalcurrencies:coins"
-				id: "49E75B7DFCC08CB7"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			shape: "diamond"
-			size: 0.65d
-			subtitle: "The Final Plate"
-			tasks: [{
-				count: 8L
-				id: "7A6C4D2E98030DFC"
-				item: "create:sturdy_sheet"
-				type: "item"
-			}]
-			x: 1.33d
-			y: -1.41d
 		}
 		{
 			dependencies: ["1D9A770D9C0B128F"]
@@ -1174,7 +1146,6 @@
 			shape: "diamond"
 			size: 1.0d
 			subtitle: "Every Engineer Needs Their Workshop"
-
 			tasks: [
 				{
 					id: "29E2429D36336B83"
@@ -1215,23 +1186,59 @@
 		}
 		{
 			dependencies: ["40A64D59F1186585"]
+			description: ["Applying &6lava&r to &5Obsidian Dust&r and &dpressing&r it twice will create &eSturdy Sheets&r."]
 			id: "06A743F6E3DEDA8D"
-			rewards: [{
-				amount: 100L
-				currency: "eternalcurrencies:coins"
-				id: "4AD9B151791EFB34"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "4AD9B151791EFB34"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "0780836915DDB701"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 0.65d
-			subtitle: "For Your Brass Needs"
+			subtitle: "Sturdier than a rock!"
 			tasks: [{
-				count: 16L
-				id: "2C9786605F53BA71"
-				item: "create:brass_sheet"
+				count: 4L
+				id: "2EAC142723B5A68A"
+				item: { Count: 4, id: "create:sturdy_sheet" }
 				type: "item"
 			}]
+			title: "Sturdy Sheets"
 			x: 1.62d
 			y: -1.7d
 		}
@@ -1560,7 +1567,7 @@
 			description: [
 				"Sending &dRotational Power&r into the &eJetpack&r will refuel it allowing for flight!"
 				""
-				"&eTip:&r Can be enchanted with &dCapacity&r to extend Tank Capacity"
+				"&eTip:&r Can be enchanted with &dCapacity&r to extend Tank Capacity."
 			]
 			id: "1A79FF78E27CB17D"
 			rewards: [
@@ -1620,7 +1627,7 @@
 		}
 		{
 			description: [
-				"The &eShotgun&r is an excellent weapon deep into &6Expert Mode &r"
+				"The &eShotgun&r is an excellent weapon deep into &6Expert Mode&r."
 				""
 				"&eTip:&r Reload with CTRL + R"
 			]
@@ -1693,7 +1700,7 @@
 			description: [
 				"Superheating &eBlaze Burners&r with &6Blaze Cakes&r generates higher amounts of heat needed to maximize a &dSteam Engine&r. "
 				""
-				"You'll need &e72 Fluid Tanks&r arranged in a 3 x 3 x 8 pattern. Water then needs to be pumped into the tank while the &eBlaze Burners&r need to be fed &6Blaze Cakes&r"
+				"You'll need &e72 Fluid Tanks&r arranged in a 3 x 3 x 8 pattern. Water then needs to be pumped into the tank while the &eBlaze Burners&r need to be fed &6Blaze Cakes&r."
 			]
 			id: "6889ED41A8B26EE3"
 			rewards: [
@@ -1867,33 +1874,11 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["28473C2BE6F8424D"]
-			id: "5CBE7A8D2D3AF747"
-			optional: true
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "443EDD70EFFA7476"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			shape: "diamond"
-			size: 0.6d
-			subtitle: "Craft &eHoneyed Apples"
-			tasks: [{
-				count: 32L
-				id: "251E956D3FC0DF4D"
-				item: "create:honeyed_apple"
-				type: "item"
-			}]
-			title: "Yummy Apples!"
-			x: -9.6d
-			y: -3.5999999999999996d
-		}
-		{
 			dependencies: ["3FD8B9DC84EA68FC"]
 			description: [
 				"&oHave you ever had a tough to reach block and thought \"Huh if only I could extend my reach\"? Well now you can with the Extendo Grip 9000 all tough to reach mobs and blocks suddenly feel much closer! &r"
+				""
+				"&oOur sleek patent design allows extended use when paired with the &lnew&r &oBacktank Pro. No longer will you worry about running out of durability again!&r"
 				""
 				"&oWe are not responsible for any damages or injuries caused by the Extendo Grip. Backtank not included&r."
 			]
@@ -1943,7 +1928,7 @@
 			description: [
 				"&3Soul Fire&7 in front of an &eEncased Fan&7 can haunt a variety of blocks into their &cNether&7 counterparts."
 				""
-				"&7Haunting &eSand&7 will turn it into &eSoul Sand&7 which can be washed into &fQuartz"
+				"&7Haunting &eSand&7 will turn it into &eSoul Sand&7 which can be washed into &fQuartz."
 			]
 			hide_until_deps_complete: true
 			icon: "immersive_weathering:soul_fire"
@@ -2103,7 +2088,6 @@
 				}
 			]
 			subtitle: "Craft some &eBlaze Cakes"
-
 			tasks: [{
 				count: 4L
 				id: "3A2DAAD533BC54A5"
@@ -2113,37 +2097,6 @@
 			title: "&6Blaze Cakes"
 			x: -9.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["28473C2BE6F8424D"]
-			id: "2F19D284E4727230"
-			optional: true
-			rewards: [
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "70D0B581AF00BF45"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "3382514E816D55EF"
-					item: "minecraft:arrow"
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			size: 0.6d
-			subtitle: "Don't let someone steal it!"
-			tasks: [{
-				count: 32L
-				id: "3D623EB9FF997E44"
-				item: "create:sweet_roll"
-				type: "item"
-			}]
-			title: "Let Me Guess..."
-			x: -9.6d
-			y: -2.4d
 		}
 		{
 			dependencies: ["54447DEF622F39EC"]
@@ -2545,9 +2498,9 @@
 			description: [
 				"Placing a &eTrain Station&r on a &eTrain Track&r allows for construction of customized &dTrains&r. &aSuper Gluing&r components will move them along with the &dTrain&r. "
 				""
-				"&eTip:&r &dTrains&r travel faster when they have fuel on board"
+				"&eTip:&r &dTrains&r travel faster when they have fuel on board."
 				""
-				"&6Note:&r &eTrains&r can travel through the &cNether&r allowing for transportation of liquids or Entities"
+				"&6Note:&r &eTrains&r can travel through the &cNether&r allowing for transportation of liquids or Entities."
 			]
 			hide_dependency_lines: true
 			icon: "create:schedule"
@@ -2635,21 +2588,70 @@
 			dependencies: ["28473C2BE6F8424D"]
 			id: "492C4D41CF9316C1"
 			optional: true
-			rewards: [{
-				amount: 50L
-				currency: "eternalcurrencies:coins"
-				id: "63C13F1DA9EBEDEB"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
-			size: 0.6d
-			tasks: [{
-				count: 16L
-				id: "55AA1BCC8A712C54"
-				item: "create:chocolate_glazed_berries"
-				type: "item"
-			}]
-			title: "Glaze Some Berries"
+			rewards: [
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "63C13F1DA9EBEDEB"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "289C12EB5CD59533"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Master Desserts with this simple trick!"
+			tasks: [
+				{
+					count: 5L
+					id: "55AA1BCC8A712C54"
+					item: "create:chocolate_glazed_berries"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1374BB3D2D34E96C"
+					item: { Count: 6, id: "create:honeyed_apple" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2332DD50895E3638"
+					item: { Count: 5, id: "create:sweet_roll" }
+					type: "item"
+				}
+			]
+			title: "Sweet Tooth"
 			x: -10.0d
 			y: -3.0d
 		}
@@ -3000,7 +3002,11 @@
 			y: -3.0d
 		}
 		{
-			description: ["Make sure to refuel your &eBacktank&r with rotational power!"]
+			description: [
+				"Make sure to refuel your &eBacktank&r with rotational power!"
+				""
+				"&eTip:&r Wearing a full set of &eNetherite Diving Equipment&r and &eNetherite Leggings&r makes you immune to &6lava&r and helps you see clearly under the &6lava&r!"
+			]
 			icon: {
 				Count: 1
 				id: "create:netherite_diving_helmet"
@@ -3191,7 +3197,7 @@
 			description: [
 				"Some of the earliest &dContraptions&r you can make involve the &eCart Assembler&r."
 				""
-				"Attaching &eDrills&r, &eHarvesters&r, or &eSaws&r will allow mobile usage of the blocks "
+				"Attaching &eDrills&r, &eHarvesters&r, or &eSaws&r will allow mobile usage of the blocks."
 			]
 			hide_dependency_lines: true
 			icon: "create:mechanical_drill"
