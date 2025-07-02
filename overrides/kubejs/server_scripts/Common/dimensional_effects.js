@@ -20,7 +20,11 @@ const addDimensionalEffect = (dim, effect, amp, duration, visible, condition) =>
         : dimEffects.put(dim, [effectObj]);
 }
 
-//addDimensionalEffect("minecraft:overworld", "minecraft:strength", 2, 600, false)
+addDimensionalEffect("thegreatbelow:thegreatbelow", "xaerominimap:no_waypoints", 0, 225, false)
+addDimensionalEffect("thegreatbelow:thegreatbelow", "xaerominimap:no_minimap", 0, 225, false)
+addDimensionalEffect("thegreatbelow:thegreatbelow", "xaeroworldmap:no_world_map", 0, 225, false)
+
+
 
 
 ServerEvents.tick(event => {
