@@ -32,7 +32,14 @@ ServerEvents.tags("entity_type", event => {
         "iceandfire:fire_dragon",
         "iceandfire:ice_dragon",
         "iceandfire:sea_serpent",
-        "masquerader_mod:masquerader"
+        "masquerader_mod:masquerader",
+
+        //Non-Living
+        // atleast Ars Nouveau is a bit dumb, and can catch nonliving entities :V
+        "minecraft:item",
+        "minecraft:arrow",
+        "minecraft:spectral_arrow",
+        "tconstruct:indestructible"
     ])
 
 
