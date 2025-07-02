@@ -273,6 +273,14 @@
 			x: 5.3d
 			y: -1.9d
 		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.865306122448985d
+			y: -2.9952380952380864d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -284,6 +292,8 @@
 				"&eZinc&f is an essential ore found underground in the &2Overworld&f and is used for almost every item in the pack."
 				""
 				"&eTip:&f If you are unsure of how an item works in Create, &6holding W to ponder&f will provide you a visual. "
+				""
+				"&8Chapter Credit: Hyperion_Muffin"
 			]
 			icon: "create:wrench"
 			id: "033E2E587625AC61"
@@ -300,6 +310,14 @@
 					id: "140C58A85A77A469"
 					item: "minecraft:stripped_oak_log"
 					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:engineer"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "4BD47E6A0A5AB9D5"
+					title: "&eUnlock Title:&r the Engineer"
+					type: "command"
 				}
 			]
 			shape: "gear"
@@ -828,6 +846,7 @@
 		{
 			description: ["They produce the same amount of &eSU&r as a &eWater Wheel&r..."]
 			id: "3B1CD4BE5591DDBF"
+			optional: true
 			rewards: [
 				{
 					id: "119AEA72A1828538"
@@ -851,15 +870,43 @@
 					type: "item"
 				}
 				{
-					id: "2B696AADE9F20AF8"
+					id: "2E93797B38B143DB"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
 					type: "item"
+				}
+				{
+					amount: 100L
+					currency: "eternalcurrencies:coins"
+					id: "3B6CF68CE36F429B"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
 				}
 			]
 			shape: "heart"
@@ -1362,12 +1409,33 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "3851012B16719699"
+					id: "0B18D7DE3BE17717"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
 					type: "item"
@@ -1642,7 +1710,7 @@
 			id: "667F811348011891"
 			rewards: [
 				{
-					amount: 100L
+					amount: 250L
 					currency: "eternalcurrencies:coins"
 					id: "1CAAF4EE8F7417D8"
 					ignore_reward_blocking: true
@@ -1655,12 +1723,33 @@
 					type: "item"
 				}
 				{
-					id: "2EB7A01E04E8D89A"
+					id: "377713093B72A300"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
 					type: "item"
@@ -1712,16 +1801,50 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "4E28C027CE07CD96"
+					count: 3
+					id: "6CD8CD934103853D"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
-					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "24DDD77517DEEB55"
+					item: "compressedcreativity:compressed_air_engine"
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:mad_scientist"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "276A9DCA353350BD"
+					title: "&eUnlock Title:&r the Mad Scientist"
+					type: "command"
 				}
 			]
 			shape: "octagon"
@@ -1761,14 +1884,36 @@
 					type: "item"
 				}
 				{
-					id: "517D81DD7837E7AD"
+					id: "707E28B37A8899C6"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
+					random_bonus: 1
 					type: "item"
 				}
 			]
@@ -1894,12 +2039,33 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "7B8E318441BCD076"
+					id: "4A515F7F078D0D34"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
 					type: "item"
@@ -2441,7 +2607,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 100L
+					amount: 200L
 					currency: "eternalcurrencies:coins"
 					id: "42D2467B965C6473"
 					ignore_reward_blocking: true
@@ -2480,6 +2646,14 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					command: "/titles add {p} titles:pilot"
+					console: true
+					icon: "titles:title_scroll_uncommon"
+					id: "3ACA953ADBE8EF52"
+					title: "&eUnlock Title:&r the Pilot"
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -2515,15 +2689,36 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "0DE3E6E7AD490267"
+					id: "0E7EB727AACD39DE"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
-					random_bonus: 1
+					random_bonus: 2
 					type: "item"
 				}
 			]
@@ -3024,12 +3219,33 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "31917F45A1004DE0"
+					id: "3EAA181667148B9F"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
 					type: "item"
@@ -3073,6 +3289,7 @@
 				}
 				{
 					biome: "alexscaves:abyssal_chasm"
+					icon: "alexscaves:gazing_pearl"
 					id: "72137CB5A019453E"
 					type: "biome"
 				}
@@ -3263,6 +3480,154 @@
 			title: "&6My First Contraption"
 			x: 1.5d
 			y: -6.4d
+		}
+		{
+			dependencies: ["396120583CC27470"]
+			description: [
+				"Craft the &eScarlet Biplane!&r"
+				"It has improved speed, takeoff and strength compared to the classic Biplane!"
+			]
+			hide_dependency_lines: true
+			id: "015E0856073ACD93"
+			optional: true
+			rewards: [
+				{
+					amount: 500L
+					currency: "eternalcurrencies:coins"
+					id: "4952CD412DB3C74A"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4D4E9E396FF9446E"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&6An Even BETTER way to travel!"
+			tasks: [{
+				id: "1C9335D0D0E3FEFB"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			title: "&dSoar The Skies!"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6CA5D4299A349E69"]
+			description: [
+				"The &eBrass Revolver&r can be used as an efficient weapon!"
+				"Even more, this weapon is very customisable and can be upgraded by pressing Z!"
+				"After applying all of the available upgrade, your revolver will become &o*very*&r powerful! "
+				""
+				""
+				""
+				"&eTip:&r Reload with CTRL + R"
+			]
+			id: "6CFECA74F2B7F02C"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "5B1363C4B947001B"
+					item: "cgs:round_10mm"
+					type: "item"
+				}
+				{
+					id: "0F8F47BDE4142EAC"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 200L
+					currency: "eternalcurrencies:coins"
+					id: "50EE211D329A53CA"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+			]
+			subtitle: "Craft a &eBrass Revolver"
+			tasks: [
+				{
+					id: "721367D7CC7F5E85"
+					item: {
+						Count: 1
+						id: "cgs:revolver"
+						tag: {
+							AmmoCount: 6
+							variant: "default"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "34036273336FFA72"
+					item: { Count: 16, id: "cgs:round_10mm" }
+					type: "item"
+				}
+			]
+			title: "&6Semi-Modern Warfare!"
+			x: 6.0d
+			y: -3.0d
 		}
 	]
 	title: "{chapter.25.title}"
