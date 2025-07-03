@@ -1088,6 +1088,7 @@
 			rewards: [
 				{
 					command: "/titles add {p} titles:blacksmith"
+					console: true
 					icon: "titles:title_scroll_common"
 					id: "53A894AE11A94547"
 					title: "&eUnlock Title:&r the Blacksmith"
@@ -1099,17 +1100,6 @@
 					id: "1828DB02A7F9BF49"
 					ignore_reward_blocking: true
 					type: "eternalcurrencies:currency"
-				}
-				{
-					id: "491135681AEC7619"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
 				}
 				{
 					id: "458779EFA81D02DF"
@@ -1143,27 +1133,13 @@
 			]
 			shape: "pentagon"
 			subtitle: "Craft your first &eTinkers' Tool &rusing a &eTinker's Anvil&r"
-			tasks: [
-				{
-					advancement: "tconstruct:tools/tinker_tool"
-					criterion: ""
-					id: "425488D147D8FD10"
-					title: "Create a Tinkers' Tool"
-					type: "advancement"
-				}
-				{
-					id: "24E40482C04F21F6"
-					item: {
-						Count: 1
-						id: "tconstruct:tinkers_anvil"
-						tag: {
-							texture: "tconstruct:rose_gold_block"
-						}
-					}
-					match_nbt: false
-					type: "item"
-				}
-			]
+			tasks: [{
+				advancement: "tconstruct:tools/tinker_tool"
+				criterion: ""
+				id: "425488D147D8FD10"
+				title: "Create a Tinkers' Tool"
+				type: "advancement"
+			}]
 			title: "&eA love for Smithing!"
 			x: 6.0d
 			y: 0.0d
@@ -1407,13 +1383,47 @@
 		{
 			description: ["Deal 21 damage or more in a single hit."]
 			id: "36EE964CF3FB56AC"
-			rewards: [{
-				amount: 150L
-				currency: "eternalcurrencies:coins"
-				id: "5DAD993131E791DC"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5DAD993131E791DC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6991F4EBFB58B509"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			subtitle: "Maybe &6Niko &rhas a &eTool &rwe can use?"
 			tasks: [{
@@ -1428,13 +1438,47 @@
 		}
 		{
 			id: "583F265517CF4856"
-			rewards: [{
-				amount: 150L
-				currency: "eternalcurrencies:coins"
-				id: "026C9B958B328411"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "026C9B958B328411"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "191444737679F8AA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			subtitle: "Pick up a &epig &rwith a &epiggybackpack"
 			tasks: [{
@@ -1505,13 +1549,47 @@
 		}
 		{
 			id: "4D4EF0D1706F4855"
-			rewards: [{
-				amount: 150L
-				currency: "eternalcurrencies:coins"
-				id: "5429464866E8D087"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "5429464866E8D087"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4F1A538D04E75B95"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			subtitle: "Craft a full set of &eTraveler's Gear"
 			tasks: [{
@@ -1559,12 +1637,33 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "30197240AD3D8664"
+					id: "330109A623D81DFA"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
 					type: "item"
@@ -1629,17 +1728,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "1D04C69E45301307"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
 			]
 			subtitle: "Craft the blocks needed and build a &eTinker's Foundry"
 			tasks: [
@@ -1700,12 +1788,33 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					id: "4883452E13C1DCF6"
+					id: "2F9CCCF9BE4FE5CC"
 					item: {
 						Count: 1
 						id: "ftbquests:lootcrate"
 						tag: {
-							type: "blackmarket_cache"
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
 						}
 					}
 					type: "item"
@@ -1725,13 +1834,47 @@
 		{
 			description: ["{image:modpack:textures/tc_slime.png width:180 height:100 align:center}"]
 			id: "41713364F7276A5C"
-			rewards: [{
-				amount: 150L
-				currency: "eternalcurrencies:coins"
-				id: "7D34E1FDDAFE69C6"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "7D34E1FDDAFE69C6"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3B12E406CF5583D9"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			subtitle: "Discover a &eSkyslime Island"
 			tasks: [{
@@ -1776,18 +1919,8 @@
 					type: "item"
 				}
 				{
-					id: "5D6ED6AC04AD3392"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
-				{
 					command: "/titles add {p} titles:origin"
+					console: true
 					icon: "titles:title_scroll_common"
 					id: "44E12299780E68CE"
 					title: "&eUnlock Title:&r Monarch of Steel"
@@ -1833,17 +1966,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "13A4E0A2C9AD0A52"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
-					}
-					type: "item"
-				}
 			]
 			shape: "pentagon"
 			subtitle: "Alloy and produce &eDensium"
@@ -1861,6 +1983,8 @@
 				"Tinkers’ Construct is a mod about creating tools, then modifying them to make them better. The tools will never permanently break, allowing you to tinker with a design until you are satisfied, or recycle them into new tools. After creating your first tools, create a smeltery to upgrade your tool creation, and explore the world to unlock more powerful materials and modifiers."
 				""
 				"&e&lHint:&r The most useful Tinkers' Construct guide books can be recieved by completing the eccentric tome quest!"
+				""
+				"&8Chapter Credit: Autooooooonus "
 			]
 			icon: "tconstruct:encyclopedia"
 			id: "4C98F0A91B16481F"
@@ -2246,6 +2370,7 @@
 				}
 				{
 					command: "/titles add {p} titles:sticky"
+					console: true
 					icon: "titles:title_scroll_common"
 					id: "15358290185B1E1C"
 					title: "&eUnlock Title:&r Sticky"
@@ -2317,6 +2442,61 @@
 			title: "&eAim True"
 			x: 17.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["5D2ED1168A45A14A"]
+			description: ["Enchanted Alloy is a magical material that gives tools &dVeinminer"]
+			id: "597682BE5DC9650C"
+			optional: true
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "472A3C8BEE5C8663"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "005C15A44010C8BD"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Craft &eEnchanted Alloy"
+			tasks: [{
+				id: "17E221E6D7C4271D"
+				item: "amethyst_tools:enchanted_alloy"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
 		}
 	]
 	title: "&6Tinker's Construct &o(Modular Tools)"
