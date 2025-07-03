@@ -1,6 +1,6 @@
  {
   "type": "command",
-  "id": "titles:monarch",
-  "rarity": "uncommon",
+  "id": "titles:origin",
+  "rarity": "rare",
   "defaultDisplay": "the Monarch of Steel"
 }
