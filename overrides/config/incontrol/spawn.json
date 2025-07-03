@@ -56,6 +56,14 @@
     "damagemultiply": 15.5,
     "speedmultiply": 1.5
   },
+     {
+    "mob": "ghastcow:ghast_cow",
+    "when": "finalize",
+    "result": "allow",
+    "healthmultiply": 8.5,
+    "damagemultiply": 25.5,
+    "speedmultiply": 1.5
+  },
     {
     "mob": "specialmobs:queenghast",
     "when": "finalize",

@@ -307,15 +307,11 @@
                     },
                     "modifiers": [
                         
-                        {
-                            "attribute": "generic.max_health",
-                            "operation": "ADDITION",
-                            "value": 0.1
-                        },
+                       
                         {
                             "attribute": "attributeslib:armor_shred",
                             "operation": "ADDITION",
-                            "value": 0.1
+                            "value": 0.2
                         },
                         {
                             "attribute": "attributeslib:prot_shred",
@@ -332,11 +328,7 @@
                             "operation": "ADDITION",
                             "value": 0.1
                         },
-                        {
-                            "attribute": "attributeslib:life_steal",
-                            "operation": "ADDITION",
-                            "value": 0.1
-                        }
+                      
                     ],
                     "count": 1,
                     "finalize_spawn": false
