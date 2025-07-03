@@ -665,9 +665,9 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
+		ManaCostMultiplier = 1.5
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
+		CooldownInSeconds = 320.0
 
 	[Spells."irons_spellbooks:devour"]
 		Enabled = true
