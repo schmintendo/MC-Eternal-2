@@ -1,4 +1,13 @@
 [
+    {
+       "mob": "minecraft:warden",
+    "dimension": "thegreatbelow:thegreatbelow",
+    "result": "true",
+    "when": "onjoin",
+    "healthmultiply": 10.0,
+    "damagemultiply": 8.5,
+    "speedmultiply": 1.5
+  },
 {
     "dimension": "thegreatbelow:thegreatbelow",
     "mob": "alexsmobs:skreecher",
@@ -482,14 +491,7 @@
     "damagemultiply": 2.8,
     "speedmultiply": 1.0
   },
-  {
-    "dimension": "thegreatbelow:thegreatbelow",
-    "mob": "minecraft:warden",
-    "when": "finalize",
-    "healthmultiply": 10.0,
-    "damagemultiply": 8.5,
-    "speedmultiply": 1.5
-  },
+  
 
       {
     "dimension": "thegreatbelow:thegreatbelow",
