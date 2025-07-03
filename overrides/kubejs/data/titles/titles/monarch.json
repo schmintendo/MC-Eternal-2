@@ -1,0 +1,6 @@
+ {
+  "type": "command",
+  "id": "titles:monarch",
+  "rarity": "uncommon",
+  "defaultDisplay": "the Monarch of Steel"
+}
