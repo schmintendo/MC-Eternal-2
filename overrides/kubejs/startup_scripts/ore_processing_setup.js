@@ -36,8 +36,8 @@ StartupEvents.registry("item", event => {
     // mostly for occultism crushers right now to make sure they don't get too wacky good
     global.processableOreNames.forEach(ore => {
         event.create(`${ore}_crushed_part`)
-            .texture("layer0", "kubejs:textures/crushed_ore_part")
-            .color(oreColors[ore])
+            .texture("layer0", "kubejs:item/crushed_ore_part")
+            .color(global.oreColors[ore])
     })
 
     event.create("crushed_raw_iesnium")
