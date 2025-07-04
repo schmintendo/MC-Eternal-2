@@ -85,7 +85,12 @@ ItemEvents.tooltip(event => {
 	event.add('majruszs_difficulty:recall_potion', Text.of('Teleport Home').color('#FFFF55'));
 	event.add('dreadsteel:dreadsteel_scythe', Text.of('\u00A7oSimply holding The Dreadsteel Scythe is enough to inflict uneasiness in even the most formidable of warriors').color('#FFFFFF'));
 	event.add('dreadsteel:dreadsteel_shield', Text.of('\u00A7oThe Dragon emblem on the Dreadsteel Shield is enough to strike fear into the denizens of The Overworld').color('#FFFFFF'));
-	event.add('goety:ite_bow', Text.of('\u00A7oTwice as fast as a regular bow, this weapon was gifted to The Apostle by an unknown entity.').color('#FFFFFF'));
+	event.add('vampirism:holy_water_bottle_normal', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_bottle_enhanced', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_bottle_ultimate', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_splash_bottle_normal', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_splash_bottle_enhanced', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
+	event.add('vampirism:holy_water_splash_bottle_ultimate', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
 	event.add('farmersdelight:smoked_ham', Text.of('\u00A7oSmoked, not steamed!').color('#FFFFFF'));
 	event.add('minecraft:crying_obsidian', Text.of('§d§oCan be used to stop  Portal corruption!').color('#FFFFFF'));
 	event.add('boss_tools:desh_ingot', Text.of('\u00A7oExclusive To The Moon').color('#FFFFFF'));
