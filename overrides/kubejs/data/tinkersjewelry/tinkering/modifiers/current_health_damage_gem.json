@@ -5,7 +5,7 @@
       "type": "tinkersjewelry:attribute_modifier",
       "attribute": "attributeslib:current_hp_damage",
       "formula": [
-    5,
+    3,
   0.005,
   "*",
   "$amplification",
