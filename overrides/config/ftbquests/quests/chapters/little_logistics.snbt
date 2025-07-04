@@ -2,27 +2,68 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "little_logistics"
-	group: ""
+	group: "3EBF424A99DA33B7"
 	icon: "littlelogistics:tug"
 	id: "572AA25B3278DBD1"
 	images: [{
 		height: 6.0d
-		image: "complicatedbeesquest:textures/quests/littlelogistics.png"
+		image: "modpack:textures/littlelogistics.png"
 		rotation: -25.0d
 		width: 6.0d
 		x: -7.5d
 		y: -6.5d
 	}]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4A8875DB724D07B8"]
 			description: [
 				"A basic tugboat that can operate on any furnace fuel. Fuel can be loaded with hoppers placed on top of tug docks."
-				"{image:complicatedbeesquest:textures/quests/steam_tug.png width:197 height:100 align:center}"
+				"{image:modpack:textures/steam_tug.png width:197 height:100 align:center}"
 			]
 			id: "0FB8879F827C6CDE"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "09042EB8E4E13777"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7BBE9C6AE89C0C83"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Steam Tug"
 			tasks: [{
 				id: "6EC2F4566302C346"
@@ -37,6 +78,13 @@
 			dependencies: ["4A8875DB724D07B8"]
 			description: ["A simple barge that holds items, very similar to vanilla minecart. Must be docked and part of a tug-train to interface with hoppers."]
 			id: "464AB12F23B69E29"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "661AA412F553DD89"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Chest Barge"
 			tasks: [{
 				id: "3447372AEA7D0719"
@@ -49,8 +97,23 @@
 		}
 		{
 			dependencies: ["4A8875DB724D07B8"]
-			description: ["Performs fishing passively, uses vanilla fishing rod loot table. Needs to be in open water for nets to be deployed. Can be unloaded with hoppers and barge docks. Must be docked and part of a tug-train to interface with hoppers. The barge has shallow water and “overfishing” penalties, so it’s best to use this barge on long routes into oceans. The yield is maximised when the water is 20 or more blocks deep. Overfishing is tracked per barge and per block, routes 200 or more blocks long should be sufficient to avoid overfishing."]
+			description: [
+				"Performs fishing passively, uses vanilla fishing rod loot table. Needs to be in open water for nets to be deployed. Can be unloaded with hoppers and barge docks. Must be docked and part of a tug-train to interface with hoppers. "
+				""
+				"The barge has shallow water and “overfishing” penalties, so it’s best to use this barge on long routes into oceans. "
+				""
+				"The yield is maximised when the water is 20 or more blocks deep. Overfishing is tracked per barge and per block, routes 200 or more blocks long should be sufficient to avoid overfishing."
+				""
+				"&6Hint:&r Autofishing will not enable you to gather the special bonus treasure from fishing by hand!"
+			]
 			id: "18F5E65F33931516"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "024619A485BC94D9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Auto-Fishing Barge"
 			tasks: [{
 				id: "5EBC264685752D69"
@@ -65,6 +128,13 @@
 			dependencies: ["4A8875DB724D07B8"]
 			description: ["A simple barge that seats one player."]
 			id: "43FD63D5A28178E8"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "1E8206E21B22084F"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Seater Barge"
 			tasks: [{
 				id: "1AAD6349CA2E567A"
@@ -79,6 +149,47 @@
 			dependencies: ["4A8875DB724D07B8"]
 			description: ["Automatically collects items in a radius! Connect a Chest Barge behind the Item Collection Barge as the Item Collection Barge does not provide an iventory of its own!"]
 			id: "27470BBE37D58ACC"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "179DEA59ABE79AC7"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "6645A4F7E7894831"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Item Collection Barge"
 			tasks: [{
 				id: "7FC22DFB8F242827"
@@ -92,6 +203,13 @@
 			dependencies: ["4A8875DB724D07B8"]
 			description: ["Use this barge to transport fluids, can be loaded and unloaded with a Fluid Hoppers."]
 			id: "126D15AC79129806"
+			rewards: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "36B3378821E1B8FC"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			tasks: [{
 				id: "068491DBA8D79502"
 				item: "littlelogistics:fluid_barge"
@@ -105,9 +223,50 @@
 			dependencies: ["4A8875DB724D07B8"]
 			description: [
 				"A tugboat powered by Forge Energy, can be charged when docked with a Vehicle Charger. The tug has an extra slot for a capacitor, this is useful if the tug ran out of energy mid-way and needs to be recharged."
-				"{image:complicatedbeesquest:textures/quests/energy_tug.png width:197 height:100 align:center}"
+				"{image:modpack:textures/energy_tug.png width:197 height:100 align:center}"
 			]
 			id: "68247F4CB20E5475"
+			rewards: [
+				{
+					amount: 80L
+					currency: "eternalcurrencies:coins"
+					id: "77FFE382D6C3ADBC"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "7EBC39FF3305551C"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Energy Tug"
 			tasks: [{
 				id: "0D49134EB1598938"
@@ -121,9 +280,16 @@
 		{
 			description: [
 				"Vehicles can be linked using “vehicle chains”. Train and Tug/Barge orientation will be updated automatically!"
-				"{image:complicatedbeesquest:textures/quests/linked.png width:197 height:100 align:center}"
+				"{image:modpack:textures/linked.png width:197 height:100 align:center}"
 			]
 			id: "24F6E94A5BFCA6D3"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0346746EF3B98D8E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft some Vehicle Chains"
 			tasks: [{
 				count: 6L
@@ -138,6 +304,13 @@
 		{
 			description: ["Held in hand, the Conductor's Wrench will display the locations of currently registered locomotives and tugs. Right clicking any rails will cycle it through its various shapes!"]
 			id: "3DC8A3C738D45819"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4B6A3717ADCE9912"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Conductor's Wrench"
 			tasks: [{
 				id: "1CB5AEFE0B93C316"
@@ -152,9 +325,50 @@
 			dependencies: ["5CFD5B47B679D472"]
 			description: [
 				"A basic Steam Locomotive that can operate on any furnace fuel. Fuel can be loaded with hoppers!"
-				"{image:complicatedbeesquest:textures/quests/steam_locomotive.png width:197 height:100 align:center}"
+				"{image:modpack:textures/steam_locomotive.png width:197 height:100 align:center}"
 			]
 			id: "1A140FBB683F2F40"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "300CE69FB26364ED"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "127F8621B63BE919"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Steam Locomotive"
 			tasks: [{
 				id: "152A66C88B7A122D"
@@ -169,6 +383,13 @@
 			dependencies: ["5CFD5B47B679D472"]
 			description: ["Same as vanilla chest minecart, can be loaded or unloaded using vanilla hoppers or rapid hoppers from this mod."]
 			id: "47C092292F4298EC"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "43399E56FAF02F82"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Chest Train Car"
 			tasks: [{
 				id: "148CF9526BB6A9D1"
@@ -183,6 +404,13 @@
 			dependencies: ["5CFD5B47B679D472"]
 			description: ["Train cars are similar to vanilla minecarts, but can be linked to a locomotive and docked."]
 			id: "24DFBDC284DB8D11"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "63EE5CB193AF1302"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Train Car"
 			tasks: [{
 				id: "4ED9E5A4E2300E48"
@@ -197,9 +425,41 @@
 			dependencies: ["5CFD5B47B679D472"]
 			description: [
 				"A locomotive powered by Forge Energy, can be charged when docked with a Vehicle Charger. The locomotive has an extra slot for a capacitor, this is useful if the locomotive ran out of energy mid-way and needs to be recharged."
-				"{image:complicatedbeesquest:textures/quests/energy_locomotive.png width:200 height:100 align:center}"
+				"{image:modpack:textures/energy_locomotive.png width:200 height:100 align:center}"
 			]
 			id: "48E6D7903B1E1DC4"
+			rewards: [{
+				id: "218C94BB4A724300"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						Enchantments: [{
+							id: "ars_nouveau:reactive"
+							lvl: 1
+						}]
+						HideFlags: 33
+						display: {
+							Lore: [
+								"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+								"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+								"{\"text\":\"§5§6✎ §nLore Text\"}"
+								"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+								"{\"text\":\"\"}"
+							]
+							Name: "{\"text\":\"§eQuest Loot\"}"
+						}
+						"quark:RuneAttached": 1b
+						"quark:RuneColor": {
+							Count: 1b
+							id: "quark:rainbow_rune"
+						}
+						rpgloot.randomize: 0b
+						type: "quest_loot"
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "Craft a Energy Locomotive"
 			tasks: [{
 				id: "7F40C6E3CFB25CB9"
@@ -210,8 +470,19 @@
 			y: -1.0d
 		}
 		{
-			description: ["This item stores a route for the vehicle's. When the item is placed in the vehicle's route slot, the vehicle will follow the route in order from node 0. Right click at any coordinate to add a node to the back of the tug route (cannot add to the middle). Right click at the location of any existing node to remove it. Shift right click to bring up the menu that lets you modify the order of nodes or rename them. The route can be copied by placing it together with an empty one in a crafting grid."]
+			description: [
+				"This item stores a route for the vehicle's. "
+				""
+				"When the item is placed in the vehicle's route slot, the vehicle will follow the route in order from node 0. Right click at any coordinate to add a node to the back of the tug route (cannot add to the middle). Right click at the location of any existing node to remove it. Shift right click to bring up the menu that lets you modify the order of nodes or rename them. The route can be copied by placing it together with an empty one in a crafting grid."
+			]
 			id: "03CAEB920979A70A"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "23686D9B5860AF6C"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Route"
 			tasks: [
 				{
@@ -230,8 +501,19 @@
 			y: -2.5d
 		}
 		{
-			description: ["Trains can be docked using a combination of “locomotive docking rails” and “train car docking rails”. Line the docking rails up, place unloaders below the rails and loaders on either side. Blue mode is used to unload and orange to load. The rails will automatically tell the locomotive to wait as long as there’s anything to be moved, if a redstone signal is applied to the locomotive rail, the locomotive will keep waiting regardless."]
+			description: [
+				"Trains can be docked using a combination of “locomotive docking rails” and “train car docking rails”. Line the docking rails up, place unloaders below the rails and loaders on either side. Blue mode is used to unload and orange to load. "
+				""
+				"The rails will automatically tell the locomotive to wait as long as there’s anything to be moved, if a redstone signal is applied to the locomotive rail, the locomotive will keep waiting regardless."
+			]
 			id: "475807285E166E6C"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "31C342FDD6119225"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft some Locomotive and Train Car Docking Rails"
 			tasks: [
 				{
@@ -258,6 +540,13 @@
 				"Switch rails switch between straight or left/right when powered by a redstone signal!"
 			]
 			id: "685BE99BBB7EEAC8"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "3FC9DD64218D4F15"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft some Junction and Switch Rails"
 			tasks: [
 				{
@@ -284,8 +573,19 @@
 			y: 0.5d
 		}
 		{
-			description: ["Automatic switch tracks will be switched by a locomotive with a route. Every time a locomotive approaches an automatic junction, it will look for the closest waypoint it is yet to visit, and switch the track accordingly. Waypoint can be configured using the “locomotive route” item, they are not ordered."]
+			description: [
+				"Automatic switch tracks will be switched by a locomotive with a route. Every time a locomotive approaches an automatic junction, it will look for the closest waypoint it is yet to visit, and switch the track accordingly. "
+				""
+				"Waypoint can be configured using the “locomotive route” item, they are not ordered."
+			]
 			id: "7EB7F8F39EE0B0FB"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "72F79076E10DFC04"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft some Automatic Rails"
 			tasks: [
 				{
@@ -304,8 +604,19 @@
 			y: 0.5d
 		}
 		{
-			description: ["Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. Does not affect barges. Shift-right-click to rotate."]
+			description: [
+				"Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. "
+				""
+				"Does not affect barges. Shift-right-click to rotate."
+			]
 			id: "01EEC1929B6E3379"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "4CEBAAA94C61C08B"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Tug Guide Rail"
 			tasks: [{
 				count: 8L
@@ -318,8 +629,19 @@
 			y: -5.5d
 		}
 		{
-			description: ["Assists vessels around sharp corners, should always be used on sharp corners or near entrances to narrow waterways (such as those for docks). Affects both tugs and barges. Shift-right-click to flip direction. Must not have a full solid block directly on top (i.e. no stone, planks etc. fence posts, signs etc. OK)."]
+			description: [
+				"Assists vessels around sharp corners, should always be used on sharp corners or near entrances to narrow waterways (such as those for docks). Affects both tugs and barges. Shift-right-click to flip direction. "
+				""
+				"Must not have a full solid block directly on top (i.e. no stone, planks etc. fence posts, signs etc. OK)."
+			]
 			id: "07FF09DBEC359A60"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1DBB8DB336027E89"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Vessel Corner Guide Rail"
 			tasks: [{
 				count: 3L
@@ -334,9 +656,16 @@
 		{
 			description: [
 				"This block emits a redstone signal from the back when it detects a vehicle, will display range when right-clicked."
-				"{image:complicatedbeesquest:textures/quests/vehicle_detector.png width:197 height:100 align:center}"
+				"{image:modpack:textures/vehicle_detector.png width:197 height:100 align:center}"
 			]
 			id: "0DFF4022F753EBA6"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "0995A2A9AC959510"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Vehicle Detector"
 			tasks: [{
 				count: 2L
@@ -349,8 +678,21 @@
 			y: -5.5d
 		}
 		{
-			description: ["There are two dock blocks: barge and tug. The tug block must always be present for the barge docks to work. The top texture of the tug dock must be aligned with the barge docks, you can shift right-click the tug dock to flip the dock direction. The barge docks must form a straight line from the tug dock, there shouldn’t be any gaps in the line. The tug dock can only insert into the tug (orange/output mode), place a hopper on top of the dock to extract. The barge docks can both insert (orange/output mode) and extract (blue/input mode) into/from the barges, shift-right click to switch the mode. Place a hopper below the waterblock next to the barge dock to extract. The dock line should be next to a 1 block wide canal, wider canals can prevent the vessels from docking properly."]
+			description: [
+				"There are two dock blocks: barge and tug. The tug block must always be present for the barge docks to work. The top texture of the tug dock must be aligned with the barge docks, you can shift right-click the tug dock to flip the dock direction. "
+				""
+				"The barge docks must form a straight line from the tug dock, there shouldn’t be any gaps in the line. The tug dock can only insert into the tug (orange/output mode), place a hopper on top of the dock to extract. The barge docks can both insert (orange/output mode) and extract (blue/input mode) into/from the barges, shift-right click to switch the mode. "
+				""
+				"Place a hopper below the waterblock next to the barge dock to extract. The dock line should be next to a 1 block wide canal, wider canals can prevent the vessels from docking properly."
+			]
 			id: "6E87FD1E951B8F6D"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "1790C853F050A4C8"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Tug and Barge Dock"
 			tasks: [
 				{
@@ -376,6 +718,13 @@
 				"{image:complicatedbeesquest:textures/quests/fluid_hopper.png width:197 height:100 align:center}"
 			]
 			id: "1FC282D6D6B00767"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "40CB5DBEDA03C6EE"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Fluid Hopper"
 			tasks: [{
 				id: "00CDC87065678BD7"
@@ -389,9 +738,16 @@
 		{
 			description: [
 				"A charger for Energy Tug or Locomotive, connect to any forge energy cable to add power to the charger. Place on top of a dock or beside a rail to charge the vehicle when docking."
-				"{image:complicatedbeesquest:textures/quests/vehicle_charger.png width:197 height:100 align:center}"
+				"{image:modpack:textures/vehicle_charger.png width:197 height:100 align:center}"
 			]
 			id: "6D38DDB6216520E2"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "7076B76E5075FE17"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Vehicle Charger"
 			tasks: [{
 				id: "1B0E64374364CDA5"
@@ -405,9 +761,16 @@
 		{
 			description: [
 				"Same as vanilla hopper, but 8 times as fast!"
-				"{image:complicatedbeesquest:textures/quests/rapid_hopper.png width:197 height:100 align:center}"
+				"{image:modpack:textures/rapid_hopper.png width:197 height:100 align:center}"
 			]
 			id: "1153649061EA90BD"
+			rewards: [{
+				amount: 75L
+				currency: "eternalcurrencies:coins"
+				id: "244DD320A16892F9"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
 			subtitle: "Craft a Rapid Hopper"
 			tasks: [{
 				id: "4B8E220051DC5B4C"
@@ -443,6 +806,47 @@
 			dependencies: ["5CFD5B47B679D472"]
 			description: ["Can transport fluids, can be loaded or unloaded using fluid hoppers."]
 			id: "4E8FFA5B45271111"
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "1605A57874627C22"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "24E8C27E7F347E60"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							Enchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 1
+							}]
+							HideFlags: 33
+							display: {
+								Lore: [
+									"{\"text\":\"§7§o§e§oContains a random special item!\"}"
+									"{\"text\":\"§b§7§o§bRight-Click to Open\"}"
+									"{\"text\":\"§5§6✎ §nLore Text\"}"
+									"{\"text\":\"§7§6§o§7§o\\\"An assortment of miscellaneous items of varying usefulness found within The Quest Master's storage locker and repackaged as your reward!\\\"\"}"
+									"{\"text\":\"\"}"
+								]
+								Name: "{\"text\":\"§eQuest Loot\"}"
+							}
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								id: "quark:rainbow_rune"
+							}
+							rpgloot.randomize: 0b
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Craft a Fluid Tank Train Car"
 			tasks: [{
 				id: "4D807B5DC4168249"
@@ -454,7 +858,11 @@
 			y: -1.0d
 		}
 		{
-			description: ["There are two types of vessels in this mod: tugs and barges. Tugs can move the barges when chained, and barges and do all sort of stuff. Tugs can also be moved manually using leads."]
+			description: [
+				"There are two types of vessels in this mod: tugs and barges. Tugs can move the barges when chained, and barges and do all sort of stuff. Tugs can also be moved manually using leads."
+				""
+				"&8Chapter credit: Pixiefer"
+			]
 			id: "4A8875DB724D07B8"
 			subtitle: "Tugs and Barges Info"
 			tasks: [{
@@ -466,6 +874,26 @@
 			x: -7.5d
 			y: -4.0d
 		}
+		{
+			description: [
+				"Little Logistics is a mod for focused on efficient, affordable, long-distance transport!"
+				""
+				"Using fun little vehicles such as trains and boats, you can improve your logistics in a cute and effective way! "
+				"{image:modpack:textures/steam_tug.png width:180 height:100 align:center}"
+				"                &8&oTug Steamboat!"
+			]
+			id: "47A4EB21B8670655"
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Learn about the mod!"
+			tasks: [{
+				id: "4D648807D80D7341"
+				title: "What is Little Logistics?"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
 	]
-	title: "Little Logistics~"
+	title: "&6Little Logistics"
 }
