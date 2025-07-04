@@ -196,4 +196,8 @@ ItemEvents.tooltip(event => {
 	event.add('rats:plastic_waste', Text.of('\u00A7oYep the ocean...').color('#FFFFFF'));
 	event.add(['tconstruct:tinkers_anvil', 'tconstruct:scorched_anvil'], Text.of('\u00A7oCan be crafted with multiple types of alloyed metals').color('#4F0D75'));
 
+
+
+	event.add("occultism:stable_wormhole", Text.translate("tooltip.mce2.occultism.stable_wormhole.fragile").color("#BB0000"))
+
 })
