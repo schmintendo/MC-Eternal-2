@@ -368,6 +368,14 @@
 					}
 					type: "item"
 				}
+				{
+					command: "/titles add {p} titles:conductor"
+					console: true
+					icon: "titles:title_scroll_common"
+					id: "1715BE9B228BEA5D"
+					title: "&eUnlock Title:&r the Conductor"
+					type: "command"
+				}
 			]
 			subtitle: "Craft a Steam Locomotive"
 			tasks: [{
@@ -540,13 +548,23 @@
 				"Switch rails switch between straight or left/right when powered by a redstone signal!"
 			]
 			id: "685BE99BBB7EEAC8"
-			rewards: [{
-				amount: 75L
-				currency: "eternalcurrencies:coins"
-				id: "3FC9DD64218D4F15"
-				ignore_reward_blocking: true
-				type: "eternalcurrencies:currency"
-			}]
+			rewards: [
+				{
+					amount: 75L
+					currency: "eternalcurrencies:coins"
+					id: "3FC9DD64218D4F15"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					command: "/titles add {p} titles:logician"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "6D7D4CD56B6C5CAB"
+					title: "&eUnlock Title:&r the Little Logician"
+					type: "command"
+				}
+			]
 			subtitle: "Craft some Junction and Switch Rails"
 			tasks: [
 				{
@@ -715,7 +733,7 @@
 		{
 			description: [
 				"A hopper but for fluids, can import from the top and export from the sides. Can be loaded by right-clicking with buckets. Can be used to load/unload vessels using Docks."
-				"{image:complicatedbeesquest:textures/quests/fluid_hopper.png width:197 height:100 align:center}"
+				"{image:modpack:textures/fluid_hopper.png width:197 height:100 align:center}"
 			]
 			id: "1FC282D6D6B00767"
 			rewards: [{
@@ -876,13 +894,18 @@
 		}
 		{
 			description: [
-				"Little Logistics is a mod for focused on efficient, affordable, long-distance transport!"
+				"&6&lLittle Logistics&r is a mod focused on efficient, affordable and long-distance transport!"
 				""
 				"Using fun little vehicles such as trains and boats, you can improve your logistics in a cute and effective way! "
 				"{image:modpack:textures/steam_tug.png width:180 height:100 align:center}"
 				"                &8&oTug Steamboat!"
 			]
 			id: "47A4EB21B8670655"
+			rewards: [{
+				id: "7FA0A73A44230865"
+				item: "brewinandchewin:ham_and_cheese_sandwich"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.3d
 			subtitle: "Learn about the mod!"
