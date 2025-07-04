@@ -734,10 +734,10 @@
 		School = "irons_spellbooks:lightning"
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
+		MinRarity = "EPIC"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 40.0
+		CooldownInSeconds = 60.0
 
 	[Spells."irons_spellbooks:chain_lightning"]
 		Enabled = true
