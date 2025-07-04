@@ -14,6 +14,21 @@ global.processableOreNames = [
     "iesnium"
 ]
 
+global.oreColors = {
+    iron: 0xc9c0bf,
+    gold: 0xfcd538,
+    copper: 0xe07a1b,
+    tin: 0x89a1a0,
+    silver: 0xabc7c6,
+    lead: 0x393040,
+    nickel: 0xd5d69f,
+    osmium: 0xa7d1d0,
+    uranium: 0x82eb63,
+    zinc: 0xcbe6c3,
+    cobalt: 0x366de3,
+    iesnium: 0x60d6d6
+}
+
 
 StartupEvents.registry("item", event => {
 
@@ -21,6 +36,8 @@ StartupEvents.registry("item", event => {
     // mostly for occultism crushers right now to make sure they don't get too wacky good
     global.processableOreNames.forEach(ore => {
         event.create(`${ore}_crushed_part`)
+            .texture("layer0", "kubejs:textures/crushed_ore_part")
+            .color(oreColors[ore])
     })
 
     event.create("crushed_raw_iesnium")
