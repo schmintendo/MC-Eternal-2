@@ -33,6 +33,7 @@ ServerEvents.tags("entity_type", event => {
         "iceandfire:ice_dragon",
         "iceandfire:sea_serpent",
         "masquerader_mod:masquerader",
+        /occultism:.*/,
 
         //Non-Living
         // atleast Ars Nouveau is a bit dumb, and can catch nonliving entities :V
