@@ -147,12 +147,12 @@
 	[Spells."irons_spellbooks:oakskin"]
 		Enabled = true
 		School = "irons_spellbooks:nature"
-		MaxLevel = 8
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
+		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 35.0
+		CooldownInSeconds = 65.0
 
 	[Spells."irons_spellbooks:spider_aspect"]
 		Enabled = true
