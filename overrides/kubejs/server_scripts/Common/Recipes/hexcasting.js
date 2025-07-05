@@ -2,6 +2,7 @@
 const hexBlocks = {
         amethyst: [
             "minecraft:amethyst_block",
+            "hexcasting:amethyst_tiles",
             "hexcasting:amethyst_bricks",
             "hexcasting:amethyst_bricks_small",
             "hexcasting:amethyst_pillar"
@@ -48,6 +49,8 @@ ServerEvents.recipes(event => {
         S: "hexcasting:slate_block",
         A: "#forge:storage_blocks/amethyst"
     }).id("mce2:hexcasting/slate_amethyst_tiles")
+
+    event.remove({id: "hexcasting:stonecutting/amethyst_tiles"})
 
     Object.keys(hexBlocks).forEach(blockSet => {
         hexBlocks[blockSet].forEach(block => {
