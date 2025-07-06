@@ -78,7 +78,7 @@ ServerEvents.tags("entity_type", event => {
         tagNoFarming
     ])
 
-    event.add("pneumaticcraft:vacuum_trap_blacklist", [
+    event.add("pneumaticcraft:vacuum_trap_blacklisted", [
         tagNoFarming
     ])
 })
