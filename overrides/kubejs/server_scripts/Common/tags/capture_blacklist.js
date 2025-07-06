@@ -38,6 +38,7 @@ ServerEvents.tags("entity_type", event => {
         "occultism:afrit_wild",
         "occultism:shub_niggurath_spawn",
         /occultism:wild_hunt_.*/,
+        /pneumaticcraft:.*/,
 
         //Non-Living
         // atleast Ars Nouveau is a bit dumb, and can catch nonliving entities :V
@@ -74,6 +75,10 @@ ServerEvents.tags("entity_type", event => {
     ])
 
     event.add("enderio:spawner_blacklist", [
+        tagNoFarming
+    ])
+
+    event.add("pneumaticcraft:vacuum_trap_blacklist", [
         tagNoFarming
     ])
 })
