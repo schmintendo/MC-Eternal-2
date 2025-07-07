@@ -79,6 +79,7 @@ global.preferredOreProducts = {
         brass: "create:brass_ingot"
     },
     dust: {
+        //Dusts with an associated Ingot
         metal: {
             iron: "thermal:iron_dust",
             gold: "thermal:gold_dust",
@@ -93,14 +94,30 @@ global.preferredOreProducts = {
             electrum: "thermal:electrum_dust",
             invar: "thermal:invar_dust",
             constantan: "thermal:constantan_dust",
-            signalum: "thermal:signalum_ingot",
-            lumium: "thermal:lumium_ingot",
-            enderium: "thermal:enderium_ingot",
+            signalum: "thermal:signalum_dust",
+            lumium: "thermal:lumium_dust",
+            enderium: "thermal:enderium_dust",
             osmium: "mekanism:dust_osmium",
             uranium: "mekanism:dust_uranium",
             refined_obsidian: "mekanism:dust_refined_obsidian",
             iesnium: "occultism:iesnium_dust",
+            zinc: "moremekanismprocessing:dust_zinc"
         },
+        //Metals that have an associated Ingot and Ore
+        ore_metal: {
+            iron: "thermal:iron_dust",
+            gold: "thermal:gold_dust",
+            copper: "thermal:copper_dust",
+            tin: "thermal:tin_dust",
+            lead: "thermal:lead_dust",
+            silver: "thermal:silver_dust",
+            nickel: "thermal:nickel_dust",
+            osmium: "mekanism:dust_osmium",
+            uranium: "mekanism:dust_uranium",
+            iesnium: "occultism:iesnium_dust",
+            zinc: "moremekanismprocessing:dust_zinc"
+        },
+        //Dusts with an associated Gem
         gem: {
             lapis: "thermal:lapis_dust",
             diamond: "thermal:diamond_dust",
@@ -111,11 +128,25 @@ global.preferredOreProducts = {
             certus_quartz: "ae2:certus_quartz_dust",
             fluix: "ae2:fluix_dust",
             amethyst: "hexcasting:amethyst_dust",
-            apatite: "moremekanismprocessing:dust_apatite",
-            zinc: "moremekanismprocessing:dust_zinc",
+            apatite: "thermal:apatite_dust",
             sulfur: "thermal:sulfur_dust",
-            niter: "thermal:niter_dust"
+            niter: "thermal:niter_dust",
+            fluorite: "mekanism:dust_fluorite"
         },
+        //Dusts that have an associated Gem and Ore
+        ore_gem: {
+            lapis: "thermal:lapis_dust",
+            diamond: "thermal:diamond_dust",
+            emerald: "thermal:emerald_dust",
+            quartz: "thermal:quartz_dust",
+            ruby: "thermal:ruby_dust",
+            sapphire: "thermal:sapphire_dust",
+            apatite: "thermal:apatite_dust",
+            sulfur: "thermal:sulfur_dust",
+            niter: "thermal:niter_dust",
+            fluorite: "mekanism:dust_fluorite"
+        },
+        //Other Dusts
         other: {
             wood: "thermal:sawdust",
             obsidian: "create:powdered_obsidian",
@@ -140,7 +171,7 @@ global.preferredOreProducts = {
     },
     raw_material: {
         iron: "minecraft:raw_iron",
-        gold: "minecrat:raw_gold",
+        gold: "minecraft:raw_gold",
         copper: "minecraft:raw_copper",
         tin: "thermal:raw_tin",
         lead: "thermal:raw_lead",
@@ -250,7 +281,7 @@ global.preferredOreProducts = {
         amethyst: "minecraft:amethyst_block",
         source_gem: "ars_nouveau:source_gem_block"
     },
-    raw_blocks: {
+    raw_block: {
         iron: 'minecraft:raw_iron_block',
         copper: 'minecraft:raw_copper_block',
         gold: 'minecraft:raw_gold_block', 
@@ -266,5 +297,14 @@ global.preferredOreProducts = {
         desh: 'ad_astra:raw_desh_block',
         ostrum: 'ad_astra:raw_ostrum_block',
         calorite: 'ad_astra:raw_calorite_block'
+    },
+    crushed_part: {
+
     }
 }
+
+
+//Ensure that this persists through reloads
+global.processableOreNames.forEach(ore => {
+    global.preferredOreProducts.crushed_part[ore] = `kubejs:${ore}_crushed_part`
+})
