@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
     Object.keys(hexBlocks).forEach(blockSet => {
         hexBlocks[blockSet].forEach(block => {
             hexBlocks[blockSet].forEach(inputBlock => {
-                console.log(`${block} -> ${inputBlock}`)
+                //console.log(`${block} -> ${inputBlock}`)
                 if(inputBlock != block)
                     event.stonecutting(block, inputBlock).id(`mce2:${block.replace(":", "/")}_from_${inputBlock.replace(":", "_")}`)
             })
