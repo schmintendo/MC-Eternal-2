@@ -6,10 +6,6 @@ Ponder.tags(event => {
 
 Ponder.registry(event => {
 	
-	var no = 'kubejs:icon_no'
-	var yes = 'kubejs:icon_yes'
-	
-	
 	// SPS
 	// Fully Complete
 	event.create('mekanism:supercharged_coil')
@@ -119,7 +115,7 @@ Ponder.registry(event => {
 		//.tag('mce2:mekanism_multiblocks')
 		.scene(
 			'mek_fusion',
-			'Fusion Reactor',
+			'Fusion Reactor [WIP]',
 			'mce2:mek_multis/fusion_reactor',
 			(scene, util) => {
 				
@@ -170,7 +166,7 @@ Ponder.registry(event => {
 		//.tag('mce2:mekanism_multiblocks')
 		.scene(
 			'mek_fission',
-			'Fission Reactor',
+			'Fission Reactor [WIP]',
 			'mce2:mek_multis/fission_reactor',
 			(scene, util) => {
 				
