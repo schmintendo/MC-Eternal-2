@@ -1,1 +1,23 @@
-{}
+{
+  "mce2.ponder.tag.mekanism_multiblocks": "MC Eternal: Mekanism Structures",
+  "mce2.ponder.tag.mekanism_multiblocks.description": "Making Massive Mekanized Multiblocks!",
+  "kubejs.ponder.mek_fission.header": "Fission Reactor",
+  "kubejs.ponder.mek_fission.text_1": "Looking for some big power? Or maybe just special Resources? Fission Reactors have you covered!",
+  "kubejs.ponder.mek_fission.text_2": "Let\u0027s get the Building Rules down with the Bottom layer.",
+  "kubejs.ponder.mek_fusion.header": "Fusion Reactor",
+  "kubejs.ponder.mek_fusion.text_1": "So, you want to build a Fusion Reactor to get all the energy in the world?",
+  "kubejs.ponder.mek_fusion.text_2": "We\u0027ll start by getting down the Building rules with the Bottom layer.",
+  "kubejs.ponder.mek_fusion.text_3": "A Fusion Reactor can be made of any combination of Fusion Reactor Casing, Ports, Logic Adapters, Laser Focus Matrixes and Reactor Glass.",
+  "kubejs.ponder.mek_sps.header": "The Supercritical Phase Shifter",
+  "kubejs.ponder.mek_sps.text_1": "The Supercritical Phase Shifter is a Multiblock used to create Antimatter.",
+  "kubejs.ponder.mek_sps.text_10": "Supercharged Coils do not need to be placed on the Walls, nor be aligned with the center of the Structure.",
+  "kubejs.ponder.mek_sps.text_11": "Now all you need to do is pipe in your Polonium, provide a load of Energy, and get out your Antimatter!",
+  "kubejs.ponder.mek_sps.text_2": "Let\u0027s start by making the Bottom layer.",
+  "kubejs.ponder.mek_sps.text_3": "The SPS can be made of any combination of SPS Casing, Ports, and Structural Glass",
+  "kubejs.ponder.mek_sps.text_4": "However, the Edges must be composed of only SPS Casing.",
+  "kubejs.ponder.mek_sps.text_5": "A Configurator can be used to change a Port\u0027s mode",
+  "kubejs.ponder.mek_sps.text_6": "The other Sides of the structure follow the same rules as the Bottom.",
+  "kubejs.ponder.mek_sps.text_7": "Now, Let\u0027s move on to those sides, and other mechanics of the SPS.",
+  "kubejs.ponder.mek_sps.text_8": "Supercharged Coils must be placed on a Port to let it accept Energy.",
+  "kubejs.ponder.mek_sps.text_9": "Ports with Supercharged Coils attached can still be used to Input and Output Chemical products."
+}
