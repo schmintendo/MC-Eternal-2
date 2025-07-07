@@ -12,11 +12,11 @@ ServerEvents.recipes(event => {
         event.remove({id: `occultism:crushing/${ore}_dust_from_raw_block`})
         event.remove({id: `occultism:crushing/${ore}_dust`})
 
-        occultismCrushing(event, Item.of(part, 4), 
+        occultismCrushing(event, Item.of(part, 5), 
             {tag: `forge:raw_materials/${ore}`}, 200, false)
             .id(`mce2:occultism/crushing/raw_${ore}_to_crushed_part`)
 
-        occultismCrushing(event, Item.of(part, 8),
+        occultismCrushing(event, Item.of(part, 10),
             {tag: `forge:ores/${ore}`}, 200, false)
             .id(`mce2:occultism/crushing/${ore}_dust`)
 
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
 
 
         event.shapeless(crushed, [
-            part, part, part
+            part, part, part, part
         ]).id(`mce2:crafting/crushed_raw_${ore}_assembling`)
     })
 
