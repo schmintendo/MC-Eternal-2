@@ -35,10 +35,6 @@
                 {
                     "entity": "netherexp:vessel",
                     "count": 3
-                },
-                {
-                    "entity": "minecraft:wither_skeleton",
-                    "count": 8
                 }
             ],
             "modifiers": [],
@@ -67,10 +63,6 @@
                 {
                     "entity": "cataclysm:ignited_berserker",
                     "count": 1
-                },
-                {
-                    "entity": "minecraft:wither_skeleton",
-                    "count": 8
                 }
             ],
             "modifiers": [
@@ -113,6 +105,12 @@
                 },
                 {
                     "entity": "cataclysm:nameless_sorcerer",
+                       "desc": "Doomsayer",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"text\":\"Doomsayer\",\"color\":\"dark_red\"}",
+                        "IsImmuneToZombification": true
+                    },
                     "count": 1
                 }
             ],
@@ -159,10 +157,6 @@
                 {
                     "entity": "cataclysm:ignited_berserker",
                     "count": 2
-                },
-                {
-                    "entity": "minecraft:wither_skeleton",
-                    "count": 8
                 }
             ],
             "modifiers": [
