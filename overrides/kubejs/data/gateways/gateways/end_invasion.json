@@ -157,8 +157,8 @@
     {
       "entities": [
         {
-          "entity": "minecraft:enderman",
-          "count": 8
+          "entity": "specialmobs:lightningenderman",
+          "count": 3
         },
   
             {
