@@ -15,7 +15,7 @@
   },
   "multi_roll": {
     "enabled": true,
-    "max_level": 2,
+    "max_level": 1,
     "min_cost": 15,
     "step_cost": 17,
     "bonus_per_level": 1.0
