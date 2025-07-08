@@ -5,8 +5,8 @@
     {
       "entities": [
         {
-          "entity": "minecraft:enderman",
-          "count": 2
+          "entity": "specialmobs:minienderman",
+          "count": 1
         },
         {
           "entity": "cataclysm:endermaptera",
@@ -29,8 +29,12 @@
     {
       "entities": [
         {
-          "entity": "minecraft:enderman",
-          "count": 6
+          "entity": "specialmobs:lightningenderman",
+          "count": 1
+        },
+         {
+          "entity": "specialmobs:runicenderman",
+          "count": 2
         },
          {
           "entity": "cataclysm:endermaptera",
@@ -52,9 +56,17 @@
     },
     {
       "entities": [
-        {
-          "entity": "minecraft:enderman",
-          "count": 6
+       {
+          "entity": "specialmobs:lightningenderman",
+          "count": 2
+        },
+         {
+          "entity": "specialmobs:runicenderman",
+          "count": 2
+        },
+          {
+          "entity": "specialmobs:mirageenderman",
+          "count": 1
         },
   
          {
@@ -140,22 +152,21 @@
           "count": 8
         },
   
-          {
-          "entity": "mutantmonsters:mutant_enderman",
-          "desc": "Ancient Enderman",
+            {
+          "entity": "bosses_of_mass_destruction:obsidilith",
           "nbt": {
             "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Ancient Enderman\",\"color\":\"dark_purple\"}",
+            "CustomName": "{\"text\":\"Ancient Enderium Totem\",\"color\":\"dark_purple\"}",
             "IsImmuneToZombification": true
           },
-          "count": 2
+          "count": 1
         }
       ],
       "modifiers": [
         {
           "attribute": "generic.max_health",
           "operation": "MULTIPLY_TOTAL",
-          "value": 0.25
+          "value": 0.1
         },
         {
           "attribute": "generic.knockback_resistance",
@@ -252,7 +263,7 @@
         {
           "attribute": "generic.max_health",
           "operation": "MULTIPLY_TOTAL",
-          "value": 0.5
+          "value": 0.1
         },
         {
           "attribute": "generic.movement_speed",
@@ -278,7 +289,7 @@
       "type": "gateways:stack",
       "stack": {
         "item": "majruszsdifficulty:enderium_block",
-        "Count": 1
+        "Count": 2
       }
     }
   ],
@@ -292,7 +303,7 @@
     {
       "type": "gateways:summon",
       "entity": {
-        "entity": "minecraft:enderman"
+        "entity": "specialmobs:minienderman"
       }
     }
   ]
