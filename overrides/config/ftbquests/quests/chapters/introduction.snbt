@@ -3990,144 +3990,135 @@
 			hide_until_deps_visible: true
 			id: "4FF7C485A4E5EA9C"
 			optional: true
-			rewards: [
-				{
-					id: "3291AAD9FC09CCDB"
-					item: {
-						Count: 1
-						id: "eccentrictome:tome"
-						tag: {
-							Enchantments: [ ]
-							"eccentrictome:mods": {
-								ae2: {
-									0: {
-										Count: 1b
-										id: "ae2:guide"
-										tag: {
-											Enchantments: [ ]
-										}
+			rewards: [{
+				id: "3291AAD9FC09CCDB"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						Enchantments: [ ]
+						"eccentrictome:mods": {
+							ae2: {
+								0: {
+									Count: 1b
+									id: "ae2:guide"
+									tag: {
+										Enchantments: [ ]
 									}
 								}
-								alexscaves: {
-									0: {
-										Count: 1b
-										id: "alexscaves:cave_book"
-										tag: {
-											Enchantments: [ ]
-										}
+							}
+							alexscaves: {
+								0: {
+									Count: 1b
+									id: "alexscaves:cave_book"
+									tag: {
+										Enchantments: [ ]
 									}
 								}
-								alexsmobs: {
-									0: {
-										Count: 1b
-										id: "alexsmobs:animal_dictionary"
+							}
+							alexsmobs: {
+								0: {
+									Count: 1b
+									id: "alexsmobs:animal_dictionary"
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							cloudstorage: {
+								0: {
+									Count: 1b
+									id: "cloudstorage:guide_book"
+								}
+							}
+							complicated_bees: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "complicated_bees:field_guide"
 									}
 								}
-								ars_nouveau: {
-									0: {
-										Count: 1b
-										id: "ars_nouveau:worn_notebook"
+							}
+							ftbquests: {
+								0: {
+									Count: 1b
+									id: "ftbquests:book"
+								}
+							}
+							goety: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "goety:black_book"
 									}
 								}
-								cloudstorage: {
-									0: {
-										Count: 1b
-										id: "cloudstorage:guide_book"
+							}
+							hexcasting: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "hexcasting:thehexbook"
 									}
 								}
-								complicated_bees: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "complicated_bees:field_guide"
-										}
-									}
+							}
+							iceandfire: {
+								0: {
+									Count: 1b
+									id: "iceandfire:bestiary"
 								}
-								ftbquests: {
-									0: {
-										Count: 1b
-										id: "ftbquests:book"
-									}
+							}
+							tconstruct: {
+								0: {
+									Count: 1b
+									id: "tconstruct:encyclopedia"
 								}
-								goety: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "goety:black_book"
-										}
-									}
+								1: {
+									Count: 1b
+									id: "tconstruct:materials_and_you"
 								}
-								hexcasting: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "hexcasting:thehexbook"
-										}
-									}
+								2: {
+									Count: 1b
+									id: "tconstruct:mighty_smelting"
 								}
-								iceandfire: {
-									0: {
-										Count: 1b
-										id: "iceandfire:bestiary"
-									}
+								3: {
+									Count: 1b
+									id: "tconstruct:tinkers_gadgetry"
 								}
-								tconstruct: {
-									0: {
-										Count: 1b
-										id: "tconstruct:encyclopedia"
-									}
-									1: {
-										Count: 1b
-										id: "tconstruct:materials_and_you"
-									}
-									2: {
-										Count: 1b
-										id: "tconstruct:mighty_smelting"
-									}
-									3: {
-										Count: 1b
-										id: "tconstruct:tinkers_gadgetry"
-									}
-									4: {
-										Count: 1b
-										id: "tconstruct:fantastic_foundry"
-									}
-									5: {
-										Count: 1b
-										id: "tconstruct:puny_smelting"
-									}
+								4: {
+									Count: 1b
+									id: "tconstruct:fantastic_foundry"
 								}
-								tinkersjewelry: {
-									0: {
-										Count: 1b
-										id: "tinkersjewelry:book"
-										tag: {
-											Enchantments: [ ]
-											mantle: {
-												book: {
-													current_page: "modifiers.group_slotless"
-												}
+								5: {
+									Count: 1b
+									id: "tconstruct:puny_smelting"
+								}
+							}
+							tinkersjewelry: {
+								0: {
+									Count: 1b
+									id: "tinkersjewelry:book"
+									tag: {
+										Enchantments: [ ]
+										mantle: {
+											book: {
+												current_page: "modifiers.group_slotless"
 											}
 										}
 									}
 								}
 							}
-							"eccentrictome:version": 1
 						}
+						"eccentrictome:version": 1
 					}
-					type: "item"
 				}
-				{
-					amount: 50L
-					currency: "eternalcurrencies:coins"
-					id: "1C5935080CBE7B04"
-					ignore_reward_blocking: true
-					type: "eternalcurrencies:currency"
-				}
-			]
+				type: "item"
+			}]
 			size: 0.6d
 			subtitle: "Craft the &eEccentric Tome"
 			tasks: [{
