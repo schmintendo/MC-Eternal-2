@@ -91,18 +91,7 @@
         },
         {
             "entities": [
-                {
-                    "entity": "cataclysm:ignited_revenant",
-                    "count": 1
-                },
-                {
-                    "entity": "netherexp:stampede",
-                    "count": 1
-                },
-                {
-                    "entity": "cataclysm:ignited_berserker",
-                    "count": 2
-                },
+           
                 {
                     "entity": "cataclysm:nameless_sorcerer",
                        "desc": "Doomsayer",
@@ -118,7 +107,7 @@
                 {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.15
+                    "value": 0.5
                 },
                 {
                     "attribute": "generic.movement_speed",
@@ -152,6 +141,14 @@
             "entities": [
                 {
                     "entity": "goety:wither_necromancer",
+                    "count": 1
+                },
+                    {
+                    "entity": "cataclysm:ignited_revenant",
+                    "count": 1
+                },
+                {
+                    "entity": "netherexp:stampede",
                     "count": 1
                 },
                 {
