@@ -4,12 +4,13 @@
   "waves": [
     {
       "entities": [
-        {
-          "entity": "specialmobs:runicenderman",
-             "desc": "Michealwave",
+      
+          {
+          "entity": "specialmobs:minienderman",
+             "desc": "Michealwave Jr",
           "nbt": {
             "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Michealwave\",\"color\":\"dark_purple\"}",
+            "CustomName": "{\"text\":\"Michealwave Jr.\",\"color\":\"dark_purple\"}",
             "IsImmuneToZombification": true
           },
           "count": 1
@@ -40,8 +41,8 @@
           "count": 1
         },
          {
-          "entity": "specialmobs:minienderman",
-             "desc": "Michealwave Jr",
+          "entity": "specialmobs:runicenderman",
+             "desc": "Michealwave",
           "nbt": {
             "CustomNameVisible": 1,
             "CustomName": "{\"text\":\"Michealwave\",\"color\":\"dark_purple\"}",
