@@ -152,10 +152,10 @@
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 5.5
+	EnderGuardianHealthMultiplier = 4.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 6.0
+	EnderGuardianDamageMultiplier = 2.5
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 52.0
@@ -178,7 +178,7 @@
 	"Guardian's knockback Hp Damage" = 0.06
 	#Guardian's Uppercut Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Guardian's Uppercut Hp Damage" = 0.1
+	"Guardian's Uppercut Hp Damage" = 0.5
 	#Guardian's RocketPunch Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Guardian's RocketPunch Hp Damage" = 0.1
@@ -259,7 +259,7 @@
 	IgnisHealthMultiplier = 2.3
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 7.5
+	IgnisDamageMultiplier = 3.5
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 10.0
@@ -334,7 +334,7 @@
 	LeviathanHealthMultiplier = 2.2
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 4.7
+	LeviathanDamageMultiplier = 3.7
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0
@@ -470,7 +470,7 @@
 	MaledictusHealthMultiplier = 1.8
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 8.0
+	MaledictusDamageMultiplier = 4.0
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Maledictus's prevent attacks from far away Range" = 15.0
