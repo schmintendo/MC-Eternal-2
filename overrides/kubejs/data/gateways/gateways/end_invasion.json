@@ -5,7 +5,13 @@
     {
       "entities": [
         {
-          "entity": "specialmobs:minienderman",
+          "entity": "specialmobs:runicenderman",
+             "desc": "Michealwave",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"text\":\"Michealwave\",\"color\":\"dark_purple\"}",
+            "IsImmuneToZombification": true
+          },
           "count": 1
         },
         {
@@ -30,15 +36,26 @@
       "entities": [
         {
           "entity": "specialmobs:lightningenderman",
+  
+          "count": 1
+        },
+         {
+          "entity": "specialmobs:minienderman",
+             "desc": "Michealwave Jr",
+          "nbt": {
+            "CustomNameVisible": 1,
+            "CustomName": "{\"text\":\"Michealwave\",\"color\":\"dark_purple\"}",
+            "IsImmuneToZombification": true
+          },
           "count": 1
         },
          {
           "entity": "specialmobs:runicenderman",
-          "count": 2
+          "count": 1
         },
          {
           "entity": "cataclysm:endermaptera",
-          "count": 10
+          "count": 5
         }
       ],
       "modifiers": [],
