@@ -40,16 +40,7 @@
   
           "count": 1
         },
-         {
-          "entity": "specialmobs:runicenderman",
-             "desc": "Michealwave",
-          "nbt": {
-            "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Michealwave\",\"color\":\"dark_purple\"}",
-            "IsImmuneToZombification": true
-          },
-          "count": 1
-        },
+       
          {
           "entity": "specialmobs:runicenderman",
           "count": 1
@@ -118,16 +109,16 @@
     },
     {
       "entities": [
-        {
+         {
           "entity": "mutantmonsters:mutant_enderman",
-          "desc": "Ancient Enderman",
+             "desc": "Michealwave Sr.",
           "nbt": {
             "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Ancient Enderman\",\"color\":\"dark_purple\"}",
+            "CustomName": "{\"text\":\"Michealwave Sr.\",\"color\":\"dark_purple\"}",
             "IsImmuneToZombification": true
           },
           "count": 1
-        }
+        },
       ],
       "modifiers": [
         {
