@@ -277,7 +277,7 @@
                 {
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.5
+                    "value": 0.3
                 },
                 {
                     "attribute": "generic.movement_speed",
@@ -299,7 +299,7 @@
                     }
                 }
             ],
-            "max_wave_time": 1600,
+            "max_wave_time": 12600,
             "setup_time": 200
         }
     ],
@@ -316,13 +316,13 @@
         {
             "type": "gateways:explosion",
             "strength": 4,
-            "fire": false,
+            "fire": true,
             "block_damage": false
         },
         {
             "type": "gateways:summon",
             "entity": {
-                "entity": "minecraft:wither_skeleton"
+                "entity": "netherexp:apparition"
             }
         }
     ]
