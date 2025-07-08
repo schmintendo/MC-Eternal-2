@@ -46,6 +46,13 @@
             "modifiers": [
             ],
             "rewards": [
+                                                  {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "aquaculture:neptunium_nugget",
+      "Count": 1
+    }
+  },
      {
   "type": "gateways:command",
   "command": "weather thunder", 
