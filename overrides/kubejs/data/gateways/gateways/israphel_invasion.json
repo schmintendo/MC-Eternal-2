@@ -19,7 +19,7 @@
                     "type": "gateways:stack",
                     "stack": {
                       "item": "minecraft:netherite_scrap",
-                        "Count": 2
+                        "Count": 1
                     }
                 }
             ],
