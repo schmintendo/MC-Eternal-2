@@ -140,14 +140,15 @@
           "count": 8
         },
   
-        {
-          "entity": "bosses_of_mass_destruction:obsidilith",
+          {
+          "entity": "mutantmonsters:mutant_enderman",
+          "desc": "Ancient Enderman",
           "nbt": {
             "CustomNameVisible": 1,
-            "CustomName": "{\"text\":\"Ancient Enderium Totem\",\"color\":\"dark_purple\"}",
+            "CustomName": "{\"text\":\"Ancient Enderman\",\"color\":\"dark_purple\"}",
             "IsImmuneToZombification": true
           },
-          "count": 1
+          "count": 2
         }
       ],
       "modifiers": [
