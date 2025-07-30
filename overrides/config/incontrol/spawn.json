@@ -4,7 +4,7 @@
     "dimension": "thegreatbelow:thegreatbelow",
     "result": "true",
     "when": "onjoin",
-    "healthmultiply": 10.0,
+    "healthmultiply": 20.0,
     "damagemultiply": 8.5,
     "speedmultiply": 1.5
   },
@@ -148,7 +148,7 @@
  
   {
     "mod": "goety",
-    "when": "onjoin",
+    "when": "finalize",
     "result": "allow",
     "healthmultiply": 1.5,
     "damagemultiply": 2.0,
@@ -191,8 +191,7 @@
   {
     "mod": "alexscaves",
     "when": "finalize",
-    "result": "allow",
-    "healthmultiply": 2.5,
+    "healthmultiply": 3.0,
     "damagemultiply": 4.5,
     "speedmultiply": 1.2
   },
@@ -211,7 +210,7 @@
   "gamestage":"expert",
     "result":"default",
     "healthmultiply": 3,
-    "damagemultiply": 7,
+    "damagemultiply": 3,
     "speedmultiply": 1.2,
     "armorhelmet": ["iceandfire:armor_silver_metal_helmet"],
     "armorchest": ["iceandfire:armor_silver_metal_chestplate"],
@@ -238,7 +237,7 @@
 "gamestage":"expert",
     "result":"default",
     "healthmultiply": 3,
-    "damagemultiply": 6.6,
+    "damagemultiply": 3.6,
     "speedmultiply": 0.8,
     "armorchest": ["immersive_armors:heavy_chestplate"],
     "armorlegs": ["immersive_armors:heavy_leggings"],

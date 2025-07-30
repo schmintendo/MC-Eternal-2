@@ -7,10 +7,265 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
+        "item": "majruszsaccessories:idol_of_fertility"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:golden_dice"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:dream_catcher"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:lucky_rock"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+      {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:miner_guide"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:secret_ingredient"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+        {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:swimmer_guide"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:tamed_potato_beetle"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:tool_scraps"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+      {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:unbreakable_fishing_line"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:discount_voucher"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:certificate_of_taming"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+       
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:ancient_scarab"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+        
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:adventurer_kit"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:metal_lure"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+   {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
         "item": "cataclysm:amethyst_crab_meat"
       },
       "payment_item": {
         "count": 15,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "supplementaries:slice_map"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+     {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "chimes:copper_chimes"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+
+      {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 10,
+      "offer_item": {
+        "count": 8,
+        "item": "alexscaves:cinder_brick"
+      },
+      "payment_item": {
+        "count": 2,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0

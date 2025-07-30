@@ -24,7 +24,7 @@
 			damage_reduction_multiplier = 1.4
 			#Multiply armor toughness by this amount. See official Minecraft Wiki for an explanation of how armor toughness works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness_multiplier = 1.0
+			toughness_multiplier = 1.3
 
 	[tools_and_abilities.axe_of_a_thousand_metals]
 		#Set to true for the Axe of a Thousand Metals to have limited durability.
@@ -316,10 +316,10 @@
 		[mobs.ferrous_wroughtnaut.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 2.5
+			health_multiplier = 3.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_multiplier = 13.0
+			attack_multiplier = 15.0
 
 	[mobs.sculptor]
 		#Disable/enable the Sculptor healing while not in combat

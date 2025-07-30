@@ -7,10 +7,94 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
+        "item": "alexscaves:rainbounce_boots"
+      },
+      "payment_item": {
+        "count": 22,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:angler_rune"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	  {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "majruszsaccessories:adventurer_rune"
+      },
+      "payment_item": {
+        "count": 45,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	      {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "alexscaves:magic_conch"
+      },
+      "payment_item": {
+        "count": 50,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	   {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "alexscaves:fissile_core"
+      },
+      "payment_item": {
+        "count": 25,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
         "item": "vc_gliders:paraglider_diamond"
       },
       "payment_item": {
         "count": 10,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	     {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "mininggadgets:mininggadget_simple"
+      },
+      "payment_item": {
+        "count": 60,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
@@ -30,6 +114,21 @@
       "price_multiplier": 0.0
     },
        
+	   {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:chorus_totem"
+      },
+      "payment_item": {
+        "count": 35,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+      
     {
       "type": "goblintraders:basic",
       "experience": 10,
@@ -53,7 +152,21 @@
         "item": "mce2lib:trans_rights_sword"
       },
       "payment_item": {
-        "count": 45,
+        "count": 40,
+        "item": "minecraft:emerald"
+      },
+      "price_multiplier": 0.0
+    },
+	    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "amethyst_tools:amethyst_sword"
+      },
+      "payment_item": {
+        "count": 20,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
@@ -1542,7 +1655,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_pickaxe",
+        "item": "amethyst_tools:amethyst_pickaxe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1569,7 +1682,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_pickaxe",
+        "item": "amethyst_tools:amethyst_pickaxe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1596,7 +1709,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_pickaxe",
+        "item": "amethyst_tools:amethyst_pickaxe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1623,7 +1736,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_axe",
+        "item": "amethyst_tools:amethyst_axe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1650,7 +1763,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_axe",
+        "item": "amethyst_tools:amethyst_axe",
         "nbt": "{Damage:0}"
       },
       "payment_item": {
@@ -1704,7 +1817,7 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "minecraft:diamond_shovel",
+        "item": "amethyst_tools:amethyst_shovel",
         "nbt": "{Damage:0}"
       },
       "payment_item": {

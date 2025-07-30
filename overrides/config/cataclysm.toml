@@ -62,16 +62,16 @@
 	"Ceraunus 's Lightning Storm Damage" = 6.0
 	#Ceraunus's Wave Damage
 	#Range: 0.0 ~ 1000000.0
-	"Ceraunus's Wave Damage'" = 6.0
+	"Ceraunus's Wave Damage'" = 25.0
 	#Ceraunus's Cooldown
 	#Range: 0 ~ 1000000
 	"Ceraunus Cooldown" = 150
 	#Astrape's LightningStorm Damage
 	#Range: 0.0 ~ 1000000.0
-	"Astrape's Lightning Spear Damage" = 11.0
+	"Astrape's Lightning Spear Damage" = 30.0
 	#Astrape's Wave Damage
 	#Range: 0.0 ~ 1000000.0
-	"Astrape's Area Damage'" = 2.0
+	"Astrape's Area Damage'" = 15.0
 	#Astrape's Cooldown
 	#Range: 0 ~ 1000000
 	"Astrape Cooldown" = 80
@@ -256,10 +256,10 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 2.3
+	IgnisHealthMultiplier = 2.5
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 3.5
+	IgnisDamageMultiplier = 3.6
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 10.0
@@ -300,10 +300,10 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 2.0
+	HarbingerHealthMultiplier = 2.8
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 3.6
+	HarbingerDamageMultiplier = 3.7
 	#Harbinger's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerHealingMultiplier = 0.0
@@ -312,7 +312,7 @@
 	"Harbinger's WitherMissiledamage" = 25.0
 	#Harbinger's laser's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Harbinger's laser damage" = 10.0
+	"Harbinger's laser damage" = 15.0
 	#Harbinger's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"The Harbinger's prevent attacks from far away Range" = 35.0
@@ -331,10 +331,10 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 2.2
+	LeviathanHealthMultiplier = 2.5
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 3.7
+	LeviathanDamageMultiplier = 3.8
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0
@@ -467,10 +467,10 @@
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 1.8
+	MaledictusHealthMultiplier = 2.8
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 4.0
+	MaledictusDamageMultiplier = 3.3
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Maledictus's prevent attacks from far away Range" = 15.0
@@ -494,13 +494,13 @@
 	"Maledictus's AOE Hp Damage" = 0.15
 	#Maledictus's flying Smash Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Maledictus's Flying Smash Hp Damage" = 0.3
+	"Maledictus's Flying Smash Hp Damage" = 0.6
 	#Maledictus's Jump Smash Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Maledictus's Jump Smash Hp Damage" = 0.5
 	#Maledictus's Phantom Arrow's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Maledictus's Phantom Arrow Damage" = 15.0
+	"Maledictus's Phantom Arrow Damage" = 25.0
 	#Maledictus's cracked block breaking ignore the MobGriefing
 	MaledictusBlockBreaking = true
 	#Maledictus's DamageTime
@@ -589,15 +589,15 @@
 	ClawdianHealthMultiplier = 2.8
 	#Clawdian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ClawdianDamageMultiplier = 6.0
+	ClawdianDamageMultiplier = 3.0
 
 [Scylla]
 	#Scylla's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaHealthMultiplier = 2.3
+	ScyllaHealthMultiplier = 2.5
 	#Scylla's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaDamageMultiplier = 6.0
+	ScyllaDamageMultiplier = 3.0
 	#Scylla's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Scylla's prevent attacks from far away Range" = 12.0

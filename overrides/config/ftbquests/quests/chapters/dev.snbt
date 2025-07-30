@@ -15,7 +15,7 @@
 			id: "757234016AD66E49"
 			rewards: [{
 				auto: "enabled"
-				command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" All of a sudden you feel afraid of the dark... You feel deeply unsettled.. Better stay in the light.. Who knows what lurks in the dark...\"}]"
+				command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" All of a sudden you feel afraid of the dark... You feel deeply unsettled.. Better stay in the light.. Who knows what lurks in the dark...\"}]"
 				icon: "autumnity:red_maple_sapling"
 				id: "1A0517AB986A5101"
 				title: "&cOminous Warning"
@@ -70,13 +70,23 @@
 		}
 		{
 			id: "70147B2F28595BEB"
-			rewards: [{
-				auto: "invisible"
-				command: "/tellraw {p} {\"text\":\"You feel... afraid ... Like something is watching you... Hunting you... Maybe I shouldn't have done that..\",\"italic\":true,\"color\":\"dark_gray\"}"
-				console: true
-				id: "624172FF6FE62976"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/tellraw {p} {\"text\":\"You feel... afraid ... Like something is watching you... Hunting you... Maybe I shouldn't have done that..\",\"italic\":true,\"color\":\"dark_gray\"}"
+					console: true
+					id: "624172FF6FE62976"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/gamestage add {p} the_desecrator"
+					console: true
+					id: "6C150BA13188A288"
+					team_reward: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "18FF477E06EEDB12"
 				item: {
@@ -204,6 +214,7 @@
 						}
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "&eItem Update (AUTO)"

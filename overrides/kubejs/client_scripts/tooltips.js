@@ -6,10 +6,10 @@ ItemEvents.tooltip(event => {
 	event.add('cgs:revolver', Text.of('§7§oCan be duel wielded!').color('#FFFFFF')); 
 	event.add('cgs:revolver', Text.of('§7Press Z to tinker.').color('#FFFFFF')); 
 	event.add('etched:boombox', Text.of('§7Drag Music Disc in inventory to add to Boombox!').color('#FFFFFF')); 
-	event.add('mekanism:osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
-	event.add('mekanism:deepslate_osmium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
-	event.add('mekanism:uranium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
-	event.add('mekanism:deepslate_uranium_ore', Text.of('§b§oOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('mekanism:osmium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('mekanism:deepslate_osmium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('mekanism:uranium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
+	event.add('mekanism:deepslate_uranium_ore', Text.of('§o§bOnly spawns in The Great Below').color('#FFFFFF')); 
 	event.add('kubejs:travel_ticket', Text.of('§e§oCan be redeemed at the Quest Chapter "Fast Travel" to catch a plane to the "Sakura Dimension"!').color('#FFFFFF')); 
 	event.add('cataclysm:ignitium_block', Text.of('\u00A7oWhat a flex...').color('#FFFFFF'));
 	event.add('kubejs:artifact_endergem', Text.of('§7Can be crafted with a §eGrave Key§7 to create §dEnchanted Grave Key').color('#FFFFFF'));
@@ -23,19 +23,19 @@ ItemEvents.tooltip(event => {
 	event.add('explorerscompass:explorerscompass', Text.of('§8Can briefly cause lag while searching for a structure.').color('#FFFFFF')); 
 	event.add('kubejs:mcejaffa', Text.of('\u00A7oFaintly smells of honeydew and dirt!').color('#FFFFFF')); 
 	event.add('immersive_aircraft:quadrocopter', Text.of('\u00A7oNot safe for use in bad weather!').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('\u00A7o§7This map seems to write itself...').color('#FFFFFF')); 
+	event.add('kubejs:magic_map', Text.of('\u00A7o§7This map seems to locate entities, like some sort of advanced radar! How interesting!').color('#FFFFFF')); 
 	event.add('emendatusenigmatica:uranium_ingot', Text.of('\u00A7o§aContains roughly 20 billion calories. §oOne ingot will feed you for the rest of your life.').color('#FFFFFF'));
 	event.add('netherexp:sculk_grinder', Text.of('§bContains an immense amount of souls... But where did all of these souls come from...').color('#AA00AA'));
 	event.add('netherexp:sculk_grinder', Text.of('§8I wonder if something could absorb this power?').color('#AA00AA'));
 	event.add('rats:raw_rat', Text.of('\u00A7oYeah do not eat that...').color('#FFFFFF')); 
 	event.add('mekanism:atomic_disassembler', Text.of('§eCan be dual wielded!').color('#FFFFFF')); 
+	event.add('kubejs:ingot_thousand_metals', Text.of('§7§oContains a mixture of many alloys and materials unknown to you. This item is full of ancient secrets that will perhaps never be fully understood...').color('#FFFFFF')); 
 	event.add('kubejs:mobdrop_endermanheart_beating', Text.of('§e▸ Drops from The Wither').color('#FFFFFF')); 
 	event.add('thermal:frost_melon_slice', Text.of('\u00A7o§bFreezing! Brrrr').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('Unlocks §e§nWorld-Map').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('Unlocks §e§nMinimap-Map').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('Required for the Quest §2"Mapping Out Your Surroundings"').color('#FFFFFF')); 
-	event.add('kubejs:magic_map', Text.of('§6Can be crafted by a Cartographer, using The Architects Inkwell!').color('#FFFFFF')); 
+	event.add('kubejs:magic_map', Text.of('Unlocks §e§nMap Entity Radar!').color('#FFFFFF')); 
+	event.add('kubejs:dwarven_map', Text.of('§7This map appears to project a hologram detailing the ground beneath you.. It seems to be impressively accurate!').color('#FFFFFF'));
+	event.add('kubejs:dwarven_map', Text.of('§dAncient Dwarven Technology').color('#FFFFFF')); 
+	event.add('kubejs:dwarven_map', Text.of('Unlocks §e§nMap Cave Mode!').color('#FFFFFF')); 
 	event.add('iceandfire:ectoplasm', Text.of('§b§oConsumption is not advised. May cause the player to become temporarily incorporeal').color('#FFFFFF')); 
 	event.add('jaffactory:jaffa_cake', Text.of('§7§oLets make a Jaffa Factory! It should take less than 100 episodes... Right? RIGHT??!').color('#FFFFFF')); 
 	event.add('kubejs:sunscreen', Text.of('\u00A7oSPF 50,000').color('#FFFFFF')); 
@@ -68,14 +68,14 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:scorched_letter1', Text.of('§7Right-Click to summon a temporary bodyguard!').color('#5555FF'));  
 	event.add('kubejs:scorched_letter1', Text.of('§7§oThe entity bound by this contract has sworn an oath to be summoned on command to protect its user for all of eternity...').color('#5555FF')); 
 	event.add('kubejs:scorched_letter1', Text.of('§6Watcher: 80% Chance').color('#5555FF'));  
-		event.add('kubejs:scorched_letter1', Text.of('§6The Prowler: 20% Chance').color('#5555FF')); 
+	event.add('kubejs:scorched_letter1', Text.of('§6The Prowler: 20% Chance').color('#5555FF')); 
 	event.add('kubejs:scorched_letter', Text.of('§7§oThe entity bound by this contract has sworn an oath to be summoned on command to protect its user for all of eternity...').color('#5555FF')); 
 	event.add('kubejs:elegant_letter', Text.of('§7Right-Click to summon a temporary bodyguard!').color('#5555FF'));  
 	event.add('kubejs:elegant_letter', Text.of('§7§oThe entity bound by this contract has sworn an oath to be summoned on command to protect its user for all of eternity...').color('#5555FF')); 
-		event.add('kubejs:elegant_letter', Text.of('§eNote:§r§7 This entity does large AOE attacks, watch out for friendly fire! Keep a distance while it attacks! ').color('#5555FF')); 
+	event.add('kubejs:elegant_letter', Text.of('§eNote:§r§7 This entity does large AOE attacks, watch out for friendly fire! Keep a distance while it attacks! ').color('#5555FF')); 
 	event.add('kubejs:mossy_letter', Text.of('§7Right-Click to summon a temporary bodyguard!').color('#5555FF'));  
 	event.add('kubejs:mossy_letter', Text.of('§7§oThe entity bound by this contract has sworn an oath to be summoned on command to protect its user for all of eternity...').color('#5555FF')); 
-		event.add('kubejs:mossy_letter1', Text.of('§7Right-Click to summon a temporary bodyguard!').color('#5555FF'));  
+	event.add('kubejs:mossy_letter1', Text.of('§7Right-Click to summon a temporary bodyguard!').color('#5555FF'));  
 	event.add('kubejs:mossy_letter1', Text.of('§7§oThe entity bound by this contract has sworn an oath to be summoned on command to protect its user for all of eternity...').color('#5555FF')); 
 	event.add('tconstruct:punji', Text.of('\u00A7oDeals damage to entities, does not destroy items').color('#FFFFFF'));
 	event.add('kubejs:tc_level', Text.of('\u00A7oGives a Tinkers Construct Tool the \u00A7e"Improvable"\u00A7f\u00A7o Trait which unlocks Tool Leveling').color('#FFFFFF'));
@@ -91,8 +91,6 @@ ItemEvents.tooltip(event => {
 	event.add('vampirism:holy_water_splash_bottle_normal', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
 	event.add('vampirism:holy_water_splash_bottle_enhanced', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
 	event.add('vampirism:holy_water_splash_bottle_ultimate', Text.of('§cWarning:§r Do NOT put inside Cloud Chest, it causes a crash!').color('#FFFFFF'));
-	event.add('farmersdelight:smoked_ham', Text.of('\u00A7oSmoked, not steamed!').color('#FFFFFF'));
-	event.add('minecraft:crying_obsidian', Text.of('§d§oCan be used to stop  Portal corruption!').color('#FFFFFF'));
 	event.add('boss_tools:desh_ingot', Text.of('\u00A7oExclusive To The Moon').color('#FFFFFF'));
 	event.add('cataclysm:void_core', Text.of('\u00A7oDefensive Ability - Right Click the block you are on to Summon ite Spikes in a circular radius around the Player').color('#FFFFFF'));
 	event.add('kubejs:artifact_beating_heart', Text.of('§8A faint heartbeat can be heard inside the darkest crevices of your mind, a terrible voice whispers to you in a language you cannot comprehend...').color('#FFFFFF'));
@@ -204,5 +202,22 @@ ItemEvents.tooltip(event => {
 
 
 	event.add("occultism:stable_wormhole", Text.translate("tooltip.mce2.occultism.stable_wormhole.fragile").color("#BB0000"))
+
+	event.add("ae2:facade", Text.translate("tooltip.mce2.ae2.facade.can_be_made_with_more_things").color("#FFFF44"))
+
+	event.add(["#enderio:clear_glass", "#enderio:fused_quartz"], Text.translate("tooltip.mce2.generic.can_be_dyed").color("#FFFF44"))
+
+	event.add("#mce2:item_trash_cans", Text.translate("tooltip.mce2.generic.item_trash_can").color("#FF8888"))
+	event.add("#mce2:fluid_trash_cans", Text.translate("tooltip.mce2.generic.fluid_trash_can").color("#FF8888"))
+
+	event.add("bosses_of_mass_destruction:soul_star", Text.translate("tooltip.mce2.bomd.soul_star").color("#FFAA00"))
+
+	event.add("#mce2:majruszs/accessory", Text.translate("tooltip.mce2.majruszsaccessories.generic").color("#FFAA00"))
+	event.add("majruszsaccessories:adventurer_rune", Text.translate("tooltip.mce2.majruszsaccessories.rune.adventurer").color("#FFAA00"))
+	event.add("majruszsaccessories:angler_rune", Text.translate("tooltip.mce2.majruszsaccessories.rune.angler").color("#FFAA00"))
+	event.add("majruszsaccessories:household_rune", Text.translate("tooltip.mce2.majruszsaccessories.rune.household").color("#FFAA00"))
+	event.add("majruszsaccessories:miner_rune", Text.translate("tooltip.mce2.majruszsaccessories.rune.miner").color("#FFAA00"))
+	event.add("majruszsaccessories:nature_rune", Text.translate("tooltip.mce2.majruszsaccessories.rune.nature").color("#FFAA00"))
+	event.add("majruszsaccessories:soul_of_minecraft", Text.translate("tooltip.mce2.majruszsaccessories.soul.minecraft").color("#FFAA00"))
 
 })

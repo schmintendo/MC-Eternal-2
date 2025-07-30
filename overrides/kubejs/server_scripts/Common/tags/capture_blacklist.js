@@ -12,11 +12,22 @@ ServerEvents.tags("entity_type", event => {
         "bosses_of_mass_destruction:lich",
         "bosses_of_mass_destruction:gauntlet",
         "bosses_of_mass_destruction:void_blossom",
+        "bosses_of_mass_destruction:obsidilith",
         "mowziesmobs:ferrous_wroughtnaut",
         "mowziesmobs:frostmaw",
         "mowziesmobs:umvuthi",
         "mowziesmobs:sculptor",
-        "masquerader_mod:masquerader"
+        "masquerader_mod:masquerader",
+        "irons_spellbooks:dead_king",
+        "irons_spellbooks:dead_king_corpse",
+        "botania:doppleganger",
+        "aquamirae:captain_cornelia",
+        "aquamirae:maze_mother",
+        "alexsmobs:void_worm",
+        "alexsmobs:void_worm_part",
+        "alexscaves:forsaken",
+        "alexscaves:hullbreaker",
+        "goety:wither_necromancer"
     ])
 
 
@@ -29,13 +40,15 @@ ServerEvents.tags("entity_type", event => {
         "irons_spellbooks:archevoker",
         "irons_spellbooks:apothecarist",
         "irons_spellbooks:cryomancer",
-        "alexscaves:hullbreaker",
         "alexscaves:tremorzilla",
+        "alexscaves:magnetron",
+        "alexscaves:tremorsaurus",
+        "alexscaves:atlatitan",
         "artifacts:mimic",
         "irons_spellbooks:priest",
         "irons_spellbooks:cultist",
         "goblintraders:goblin_trader",
-      "goblintraders:vein_goblin_trader",
+        "goblintraders:vein_goblin_trader",
         "iceandfire:lightning_dragon",
         "iceandfire:fire_dragon",
         "iceandfire:ice_dragon",
@@ -46,6 +59,17 @@ ServerEvents.tags("entity_type", event => {
         "occultism:shub_niggurath_spawn",
         /occultism:wild_hunt_.*/,
         /pneumaticcraft:.*/,
+        "quark:toretoise",
+        /mutantmonsters:.*/,
+        /masquerader_mod:.*/,
+        /ars_nouveau:familiar_.*/,
+        /ars_nouveau:.*_weald_walker/,
+        /ars_elemental:.*_familiar/,
+        "iceandfire:dragon_egg",
+        "iceandfire:dragon_skull",
+        "cataclysm:netherite_ministrosity",
+        "cataclysm:the_baby_leviathan",
+        "cataclysm:modern_remnant",
 
         //Non-Living
         // atleast Ars Nouveau is a bit dumb, and can catch nonliving entities :V
@@ -74,7 +98,8 @@ ServerEvents.tags("entity_type", event => {
     // inherits from No Capture
     // because if we don't want something caught, we probably do not want it farmed either.
     event.add("c:spawning_not_supported", [
-        tagNoCapture
+        tagNoCapture,
+        "minecraft:evoker"
     ])
 
     event.add("ars_nouveau:drygmy_blacklist", [

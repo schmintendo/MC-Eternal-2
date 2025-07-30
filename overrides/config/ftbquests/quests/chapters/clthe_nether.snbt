@@ -345,7 +345,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/gamestage add @p expert"
+					command: "/gamestage add {p} expert"
 					icon: "rats:golden_rat_skull"
 					id: "7AAA477D924F4B0E"
 					title: "{chapter.22.quest.2.reward.2.title}"
@@ -707,7 +707,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:demon_slayer"
+					command: "/titles add {p} titles:demon_slayer"
 					icon: "titles:title_scroll_uncommon"
 					id: "4676D913C6156C6D"
 					title: "{chapter.22.quest.7.reward.5.title}"
@@ -827,7 +827,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @p [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" You hear a strange voice beckoning you to approach the altar...\"}]"
+					command: "/tellraw {p} [{\"text\":\"\"},{\"text\":\"[???]\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\" You hear a strange voice beckoning you to approach the altar...\"}]"
 					console: true
 					elevate_perms: true
 					icon: "create:empty_blaze_burner"
@@ -880,6 +880,43 @@
 							}
 							rpgloot.randomize: 0b
 							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7796C6E123CF3A11"
+					item: {
+						Count: 1
+						id: "cataclysm_spellbooks:ignis_chestplate_elytra"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							az_id: [I;
+								189906367
+								1472678100
+								-1950774278
+								-1300945646
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "78523C3FF9FC65BD"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 2b
+							}
 						}
 					}
 					type: "item"
@@ -1195,21 +1232,6 @@
 			icon: "minecraft:oak_sapling"
 			id: "6FE22257358280B5"
 			rewards: [
-				{
-					id: "1F32F5233A016766"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							display: {
-								Lore: ["{\"text\":\"§6§o§nContains 1 Random Curio\"}"]
-								Name: "{\"text\":\"§eCurious Box\"}"
-							}
-							type: "curious_box"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "78DF4C4E7E43BE12"
 					item: "kubejs:mcejaffa"

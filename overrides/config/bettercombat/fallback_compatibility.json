@@ -35,7 +35,7 @@
       "weapon_attributes": "bettercombat:lance"
     },
     {
-      "item_id_regex": "anchor|ceraunus",
+      "item_id_regex": "anchor|ceraunus|monstrous_flamberge|monstrous",
       "weapon_attributes": "bettercombat:anchor"
     },
     {

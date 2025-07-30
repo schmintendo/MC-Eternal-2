@@ -259,7 +259,7 @@
 			y: -4.583333333333336d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -746,7 +746,15 @@
 				"0DEAA29705F2A17A"
 				"695FC871D1105C97"
 			]
-			description: ["{mce.questing.botania.corporea_automation.desc}"]
+			description: [
+				"{mce.questing.botania.corporea_automation.desc.page1}"
+				"{@pagebreak}"
+				"{mce.questing.botania.corporea_automation.desc.page2}"
+				"{@pagebreak}"
+				"{mce.questing.botania.corporea_automation.desc.page3}"
+				"{@pagebreak}"
+				"{mce.questing.botania.corporea_automation.desc.page4}"
+			]
 			hide_until_deps_complete: true
 			id: "3940988637539E72"
 			rewards: [
@@ -777,7 +785,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "mce:botania/corporea_automation_device"
+						value: "mce2:botania/corporea_automation_device"
 					}
 				}
 				title: "{mce.questing.botania.task.any_corporea_automation_device}"

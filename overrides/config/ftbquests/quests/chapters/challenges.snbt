@@ -373,73 +373,24 @@
 		{
 			id: "2F9495018AC5F546"
 			optional: true
-			rewards: [
-				{
-					count: 5
-					id: "6D62B65C6E7398ED"
-					item: {
-						Count: 1
-						id: "ftbquests:lootcrate"
-						tag: {
-							type: "blackmarket_cache"
-						}
+			rewards: [{
+				count: 5
+				id: "6D62B65C6E7398ED"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "blackmarket_cache"
 					}
-					type: "item"
 				}
-				{
-					id: "20BCBB88589895E3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "dreadsteel:dreadsteel_scythe"
-						tag: {
-							Enchantments: [{
-								id: "minecraft:sharpness"
-								lvl: 10
-							}]
-							display: {
-								Lore: ["{\"text\":\"§o§f§oCold to the touch, yet indescribably comforting\"}"]
-								Name: "{\"text\":\"§bArmageddon \"}"
-							}
-							dmcloot.rarity: "legendary"
-							dmcloot.swiftness: 15
-							"quark:RuneAttached": 1b
-							"quark:RuneColor": {
-								Count: 1b
-								ForgeCaps: {
-									"dungeons_libraries:built_in_enchantments": {
-										BuiltInEnchantments: [ ]
-									}
-								}
-								id: "quark:blue_rune"
-							}
-							rpgloot.randomize: 0b
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "circle"
-			tasks: [
-				{
-					days: 1000
-					id: "20D72E0D9EADF30D"
-					type: "questsadditions:days"
-				}
-				{
-					disable_toast: true
-					elapsedTime: 680000L
-					gameTime: "system"
-					icon: "supplementaries:safe"
-					id: "225E3C0CF3505D08"
-					title: "&eServer Safeguard"
-					type: "questsadditions:time"
-				}
-			]
+			tasks: [{
+				days: 1000
+				id: "20D72E0D9EADF30D"
+				type: "questsadditions:days"
+			}]
 			x: 10.0d
 			y: 6.0d
 		}
@@ -739,7 +690,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add {p}  titles:master_angler"
+					command: "/titles add {p} titles:master_angler"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -1457,11 +1408,6 @@
 					item: "ars_nouveau:music_disc_aria_biblio"
 					type: "item"
 				}
-				{
-					id: "2078A6716CC2B4FB"
-					item: "warwither:music_disc_war_wither"
-					type: "item"
-				}
 			]
 			title: "{chapter.39.quest.18.title}"
 			x: -3.0d
@@ -1665,7 +1611,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0901DBD03773B644"]
 			description: [
 				"Challenge Quests are optional Quests that give you a &c&oChallenge&r. These challenges can range from skill based to the &outterly absurd&r. Challenge Quests often require a lot of time to complete! but they have extra &e&ospecial rewards™&r for your trouble!"
 				"{image:modpack:textures/barry-the-rat-demon-transparent-no-white.png width:100 height:100 align:1}"
@@ -1827,7 +1772,6 @@
 		}
 		{
 			dependencies: [
-				"1D23FD307B88FD43"
 				"3348CB91A5659884"
 				"35EB3BAAC2AD189B"
 				"511BD5CE8926D782"
@@ -1864,7 +1808,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[Overworld Radio Broadcast]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" This JUST in! We have some important news! @p has officially beaten all known Quest Chapters! Wowza! Congrats to @p for unlocking The Loremaster Title, it seems they have a LOT of free time! \\nAnyway, thanks for tuning in to this weeks OVERWORLD RADIO BROADCAST OF THE MONTH! come back next month! I'm Chip Chiply and you've just been told... THE NEWS!\"}] "
+					command: "/tellraw @a [{\"text\":\"\"},{\"text\":\"[Overworld Radio Broadcast]\",\"color\":\"gold\",\"bold\":true},{\"text\":\" This JUST in! We have some important news! {p} has officially beaten all known Quest Chapters! Wowza! Congrats to {p} for unlocking The Loremaster Title, it seems they have a LOT of free time! \\nAnyway, thanks for tuning in to this weeks OVERWORLD RADIO BROADCAST OF THE MONTH! come back next month! I'm Chip Chiply and you've just been told... THE NEWS!\"}] "
 					console: true
 					elevate_perms: true
 					icon: "etched:radio"
@@ -2144,7 +2088,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["740DD4098893630E"]
 			description: [
 				"Spend some time learning how to be a goat.. there are a lot of lessons one can learn from goats!"
 				"&6Hint:&r There are no hints... there are no shortcuts.. Study the way of the goat and you shall be rewarded!"
@@ -2228,6 +2171,91 @@
 			title: "&6The Way of The Goat"
 			x: 4.0d
 			y: 4.0d
+		}
+		{
+			description: ["&o\"Godzilla was baptized in the fire of the H-bomb and survived. What could kill it now?\""]
+			id: "4C49FA74128CEE95"
+			rewards: [
+				{
+					amount: 3500L
+					currency: "eternalcurrencies:coins"
+					id: "53327789AB4B75B4"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "78D2A656AEC25566"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p}  titles:godzilla"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "5D2DF03A7B532A06"
+					title: "&eUnlock Title:&r the Terror"
+					type: "command"
+				}
+			]
+			subtitle: "Tame a &dTerrorzilla"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_tremorzilla"
+				criterion: ""
+				icon: "alexscaves:waste_drum"
+				id: "116EB152780DB546"
+				title: "&6King of The Monsters"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["&o‘Now I Am Become Death, the Destroyer of Worlds.’"]
+			id: "31ED2D411EC20A74"
+			rewards: [
+				{
+					amount: 5000L
+					currency: "eternalcurrencies:coins"
+					id: "4F56D3427353A962"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					count: 3
+					id: "4821242C9614CE38"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "blackmarket_cache"
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/titles add {p} titles:nuke"
+					console: true
+					icon: "titles:title_scroll_rare"
+					id: "074DBF126B7B6BD2"
+					title: "&eUnlock Title:&r the Destroyer of Worlds"
+					type: "command"
+				}
+			]
+			subtitle: "Craft a &eNuclear Bomb"
+			tasks: [{
+				id: "71320C2F137A9170"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "&6Oppenheimer"
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 	title: "{chapter.39.title}"

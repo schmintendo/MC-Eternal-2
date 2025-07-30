@@ -102,7 +102,7 @@
 			y: 5.938775510204081d
 		}
 		{
-			dependency: "6B99D9083276026D"
+			dependency: "7505BE829530541C"
 			height: 1.3d
 			image: "modpack:textures/mc-eternal-gems-comm-gem-10.png"
 			rotation: 0.0d
@@ -789,14 +789,15 @@
 				"320F677D8A962681"
 				"46C671151AE613A1"
 			]
-			description: ["{chapter.8.quest.8.description.1}"]
+			description: ["Enter The End and slay the fierce &d<shake>ENDER DRAGON!"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			icon: "alexsmobs:void_worm_eye"
 			id: "341DBC6A59D51ED9"
+			optional: true
 			rewards: [
 				{
-					command: "/titles add @p titles:voidlord"
+					command: "/titles add {p} titles:voidlord"
 					console: true
 					elevate_perms: true
 					icon: "titles:title_scroll_rare"
@@ -812,19 +813,46 @@
 					type: "eternalcurrencies:currency"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5C532D50CBCFC0D7"
-					table_id: 5682295257556819944L
-					type: "random"
+					id: "4077746F2C42331D"
+					item: {
+						Count: 1
+						id: "dreadsteel:dreadsteel_scythe"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 10
+							}]
+							display: {
+								Lore: ["{\"text\":\"§o§f§oCold to the touch, yet indescribably comforting\"}"]
+								Name: "{\"text\":\"§bArmageddon \"}"
+							}
+							dmcloot.rarity: "legendary"
+							dmcloot.swiftness: 15
+							"quark:RuneAttached": 1b
+							"quark:RuneColor": {
+								Count: 1b
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:blue_rune"
+							}
+							rpgloot.randomize: 0b
+						}
+					}
+					type: "item"
 				}
 			]
 			size: 0.95d
 			subtitle: "Unlock The End"
 			tasks: [{
-				id: "3A7DBD2D2C5F2858"
-				item: "alexsmobs:void_worm_eye"
-				title: "&k&d???"
-				type: "item"
+				entity: "minecraft:ender_dragon"
+				icon: "alexsmobs:void_worm_eye"
+				id: "232C885B1F64CEA9"
+				title: "&dKill The Ender Dragon"
+				type: "kill"
+				value: 1L
 			}]
 			title: "&d<shake>The End"
 			x: 10.369047619047613d
@@ -837,6 +865,8 @@
 				"Did they ever manage to power this abomination? Was it their undoing? "
 				""
 				"The nature of their disappearance will be debated until more questions can be answered."
+				""
+				"&6&lHint:&r &cThe Harbinger&r seems incomplete, it might require some item from a powerful &4Nether&r foe... maybe it's modeled after it?"
 				" "
 				"&6☠ Difficulty: &4&lHARD"
 				"{image:modpack:textures/2025-03-14_00.36.23.png width:200 height:100 align:center}"
@@ -917,7 +947,7 @@
 			]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "&4The Nether - Progression"
+			subtitle: "{chapter.8.quest.3.subtitle}"
 			tasks: [{
 				id: "49F1A8CD12054ACB"
 				item: {
@@ -1528,7 +1558,7 @@
 					type: "custom"
 				}
 				{
-					command: "/effect give @p mowziesmobs:sunblock 500"
+					command: "/effect give {p} mowziesmobs:sunblock 500"
 					icon: {
 						Count: 1b
 						ForgeCaps: {
@@ -1556,7 +1586,7 @@
 					type: "item"
 				}
 				{
-					command: "/titles add @p titles:pet"
+					command: "/titles add {p} titles:pet"
 					icon: {
 						Count: 1
 						ForgeCaps: {
